@@ -1,0 +1,1922 @@
+[
+  {
+    "first_row": 0,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 0,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 8,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 8,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 16,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 16,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 24,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 24,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 32,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 32,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 40,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 40,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 48,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 48,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 56,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 56,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 64,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 64,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 72,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 72,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 80,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 80,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 88,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 88,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 96,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 96,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 104,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 104,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 112,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 112,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 120,
+    "background": "weak",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  },
+  {
+    "first_row": 120,
+    "background": "ring",
+    "result": {
+      "method": "N1",
+      "physical_model": "L",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NO_FEEDBACK",
+        "NOISE_FREE",
+        "NO_FEEDBACK"
+      ],
+      "beta_status": "NO_FEEDBACK_NOT_COMPUTED",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "core_margins": {},
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 4,
+        "relative_forward_source_rhs": 32,
+        "Db_actions": 32,
+        "a26_forward_residual_audits": 4,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4
+      }
+    }
+  }
+]

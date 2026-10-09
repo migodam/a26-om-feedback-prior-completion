@@ -1,0 +1,58 @@
+{
+  "status": "IMPLEMENTED_STATIC_PARSE_PASS_NUMERIC_AND_RENDER_NOT_RUN",
+  "owned_files": [
+    "src/a26/metrics.py",
+    "src/a26/plots.py"
+  ],
+  "interfaces": {
+    "image_metrics(predchi,truthchi,bgchi,grid=24)": "finite delta_nrmse/full_nrmse/real_nrmse/imag_nrmse/ssim_delta/support_iou/edge_f1/passive/feasible; undefined zero reference denominators raise",
+    "ssim_delta(predicted,target,grid=24)": "same mathematical 7x7 valid population-window formula and4.5/.5 ranges as training; NumPy float64; root must meter runtime parity check",
+    "aggregate_rows(rows,metrics,by)": "list of grouped dictionaries; rawconditions->parent->family supported; recognized validation whitelists complete; missing/failed output None and descriptive-only available means",
+    "paired_statistics(parentrows,config)": "2000 paired independent-parent resamples; keys N2_vs_N1,N2_vs_N3,N1_vs_N3,N1_vs_BASE_N1,N2_vs_BASE_N2,N3_vs_BASE_N3; all_families/complex_families/per_family metric dictionaries; aliases complex_mean_gain/complex_ci95/family_mean_gains/positive_complex_families",
+    "render_figures(root,config=None,book=None,seed=None)": "book required; aliases render/generate_figures; exact actual evaluation+learning artifacts; PNG/SVG/rawplot tables/FIGURE_MANIFEST under results/a26/evaluation/<seed>/figures"
+  },
+  "metric_definitions": {
+    "component_nrmse": "real/imag use delta denominators",
+    "support": "offline truth-only threshold .25*max(abs(truthdelta)) shared with predictedmask",
+    "edge": "exact4connected support boundaries; no displacement tolerance; grid exterior absent",
+    "paired_gain": "(reference_error-candidate_error)/reference_error after condition means; positive means candidate smaller error",
+    "complex_families": [
+      "asymmetric_piecewise",
+      "shell",
+      "mixed_scale"
+    ],
+    "scientific_gates": "not decided in worker modules"
+  },
+  "figure_definitions": [
+    "reconstruction_real",
+    "reconstruction_imag",
+    "reconstruction_error",
+    "loss_curves",
+    "paired_family_gains",
+    "paired_complex_and_own_base_gains",
+    "quality_vs_full_runtime",
+    "warm_inference_components"
+  ],
+  "reconstruction_selection": "metadata-only first parent/family, weak and ring, amplitude1.2,20dB; fullmaterial components, shared perrow color scale, separate complexerror",
+  "verification": {
+    "AST_PARSE": "PASS",
+    "numeric_tests": "NOT_RUN",
+    "SSIM_torch_parity": "NOT_RUN",
+    "real_figure_render": "NOT_RUN",
+    "visual_review": "NOT_RUN",
+    "actual_or_locked_payloads_read_by_worker": false,
+    "remote_operations": 0,
+    "new_labels": 0,
+    "SHA_checks": 0
+  },
+  "command_cost_so_far": {
+    "wall_seconds": 0.015674125999999997,
+    "process_cpu_seconds": 0.008961999999999998
+  },
+  "remaining": "Root metered runtime interface/SSIM checks, evaluator aggregation/paired checks, and actual render then visual review.",
+  "prior_files_frozen": [
+    "src/a26/data.py",
+    "src/a26/budget.py",
+    "tests/test_a26_data_budget.py"
+  ]
+}

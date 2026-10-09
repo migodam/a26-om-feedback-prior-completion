@@ -1,0 +1,33 @@
+{
+  "status": "IMPLEMENTED_STATIC_PARSE_PASS_RUNTIME_TESTS_NOT_RUN",
+  "owned_files": [
+    "src/a26/data.py",
+    "src/a26/budget.py",
+    "tests/test_a26_data_budget.py"
+  ],
+  "source_data_root": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A25/a25-adaptive-om-feedback/data",
+  "primary_interfaces": {
+    "load_split(data_root,role)": "role=train/validation only; 512/128 exact observations; metadata-first then data/legacy baseline/chi; current,clean,noise_seed never read",
+    "online_from_split(arrays)": "full split or batch; observation+known metadata only; strips chi/current/clean/legacyTV/noise_seed",
+    "load_locked_split": "explicit future A26 freeze and primary+independent-repeat PASS; owned charged job; durable A26 cohort and each-split claims before any read; not executed",
+    "charged_job": "CostBook compatible; results/a26/jobs, runs/a26-accounting.lock, fixed CPU7200/GPU14400; zero labels; one historical scan at job start",
+    "budget_history": "dict cpu_seconds,gpu_seconds,reservations,receipts,unresolved_jobs; A25 history excluded and untouched"
+  },
+  "verification": {
+    "AST_PARSE": "PASS",
+    "unit_cases": 14,
+    "runtime_tests": "NOT_RUN: root metered driver only",
+    "real_train_labels_loaded": false,
+    "real_validation_labels_loaded": false,
+    "locked_payloads_opened": false,
+    "new_labels_reserved": 0,
+    "SHA_checks": 0,
+    "remote_operations": 0
+  },
+  "command_cost_so_far": {
+    "wall_seconds": 0.1099304282989502,
+    "process_cpu_seconds": 0.07501399999999997
+  },
+  "remaining": "Root to run tests.test_a26_data_budget and metered actual train/validation loading. Runtime findings may require fixes.",
+  "memory_used": "A25 memory informed independent budget/HOLD safeguards; current protocol and source were verified directly; MEMORY.md lines73-74 and88-95; rollout01a1063c-2e8f-7542-8a2d-0d450339a642"
+}

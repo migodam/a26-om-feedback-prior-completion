@@ -1,0 +1,12 @@
+{
+  "job": "a26-primary-evaluation-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.5881304999347776,
+  "process_cpu_seconds": 2.15625,
+  "gpu_occupation_seconds": 1.5881304999347776,
+  "charged_cpu_seconds": 2.15625,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

@@ -1,0 +1,176 @@
+{
+  "status": "REPORT_STAGE_RECORDED",
+  "seed": 261009,
+  "technical": {
+    "status": "TECHNICAL_REPORTS_WRITTEN",
+    "seed": 261009,
+    "reports": [
+      "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/A26_NETWORK_COMPARISON.md",
+      "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/A26_PHYSICS_PRIOR_SPLIT.md",
+      "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/A26_COST_AND_RUNTIME.md",
+      "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/A26_EXPLORATION_LEDGER.md"
+    ],
+    "cost_ledger": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/COST_LEDGER.jsonl",
+    "cost_cutoff": {
+      "stage": "report",
+      "job": "a26-local-report-001",
+      "owner_id": "a26:a26-local-report-001:25e8392cddf14b55887836489025bb94",
+      "wall_seconds": 11.016700792009942,
+      "process_cpu_seconds": 10.584425999999999,
+      "gpu_occupation_seconds": 0.0,
+      "counts": {
+        "a26_technical_report_source_reads": 2,
+        "a26_technical_reports_written": 4,
+        "a26_actual_plot_source_reads": 1,
+        "a26_plot_attempts": 10
+      },
+      "exclusive_walls": {
+        "a26_technical_report_sources": 1.151236167002935,
+        "a26_technical_markdown_write": 0.0014148330374155194,
+        "a26_plot_source_read": 0.032693208020646125,
+        "a26_actual_figure_render": 8.885051667981315,
+        "a26_parent_scientific_report_callback": 0.12475116699351929
+      },
+      "events": 17,
+      "peak_cpu_rss_bytes": 382844928,
+      "CPU_memory_measurement_available": true,
+      "peak_gpu_allocated_bytes": 0,
+      "peak_gpu_reserved_bytes": 0,
+      "device": "cpu",
+      "CPU_in_GPU_job_included": true,
+      "deployment_wall_definition": "inclusive parent elapsed; never sum nested spans",
+      "charged_cpu_seconds": 11.016700792009942,
+      "gpu_host_only": false,
+      "raw_monitor_wall_seconds": null,
+      "durable_reservations": {},
+      "prior_cpu_seconds": 1082.7686844830625,
+      "prior_gpu_seconds": 929.7002037999337,
+      "cpu_limit_seconds": 7200.0,
+      "gpu_limit_seconds": 14400.0,
+      "cpu_accounting_rule": "max(wall,processCPU) on CPU; processCPU on CUDA",
+      "gpu_accounting_rule": "entire CUDA job occupied wall",
+      "status": "ACTIVE_CUTOFF",
+      "terminal_receipt": false,
+      "cutoff_utc": "2026-10-09T04:16:26Z",
+      "cost_scope": "CURRENT_JOB_PARTIAL_AT_REPORT_CUTOFF"
+    },
+    "source_read_failures": [],
+    "scientific_gate_decision_performed": false,
+    "locked_arrays_opened": false
+  },
+  "figures": {
+    "seed": 261009,
+    "status": "RENDERED_AVAILABLE_ACTUAL_EVIDENCE",
+    "source_scope": "ACTUAL_EXPOSED_VALIDATION_AND_TRAINING_ARTIFACTS",
+    "scientific_acceptance": "PARENT_REVIEW_REQUIRED",
+    "visual_review": "NOT_RUN",
+    "figures": [
+      {
+        "name": "reconstruction_real",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_real.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_real.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_real_plot_data.csv",
+        "caption": "Reconstructed full material: real component. Cases selected by frozen metadata, never reconstruction quality. Full material is shown; errors are relative to truth."
+      },
+      {
+        "name": "reconstruction_imag",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_imag.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_imag.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_imag_plot_data.csv",
+        "caption": "Reconstructed full material: imag component. Cases selected by frozen metadata, never reconstruction quality. Full material is shown; errors are relative to truth."
+      },
+      {
+        "name": "reconstruction_delta_real",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_delta_real.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_delta_real.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_delta_real_plot_data.csv",
+        "caption": "Actual material increment relative to the known background, with identical case selection and row-wise scales."
+      },
+      {
+        "name": "reconstruction_delta_imag",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_delta_imag.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_delta_imag.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_delta_imag_plot_data.csv",
+        "caption": "Actual material increment relative to the known background, with identical case selection and row-wise scales."
+      },
+      {
+        "name": "reconstruction_error",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_error.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_error.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/reconstruction_error_plot_data.csv",
+        "caption": "Absolute complex material error. Cases selected by frozen metadata, never reconstruction quality. Full material is shown; errors are relative to truth."
+      },
+      {
+        "name": "loss_curves",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/loss_curves.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/loss_curves.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/loss_curves_plot_data.csv",
+        "caption": "Saved scientific loss/validation histories only. Partial histories remain marked. No inferred or synthetic training points."
+      },
+      {
+        "name": "paired_family_gains",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/paired_family_gains.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/paired_family_gains.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/paired_family_gains_plot_data.csv",
+        "caption": "Four parents per family, conditions averaged first. Positive gain means smaller candidate delta NRMSE. Intervals are development uncertainty."
+      },
+      {
+        "name": "paired_complex_and_own_base_gains",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/paired_complex_and_own_base_gains.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/paired_complex_and_own_base_gains.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/paired_complex_and_own_base_gains_plot_data.csv",
+        "caption": "NN pair and NN/own-base gains. This graphic is descriptive development evidence and makes no gate decision."
+      },
+      {
+        "name": "quality_vs_full_runtime",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/quality_vs_full_runtime.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/quality_vs_full_runtime.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/quality_vs_full_runtime_plot_data.csv",
+        "caption": "Quality uses all 16 validation parents. Runtime uses only the registered measured cases. Raw measurement\u2192encoder\u2192transfer\u2192CNN\u2192box; offline full audit excluded. Fresh timing is not a fresh-process or disk-cold claim."
+      },
+      {
+        "name": "warm_inference_components",
+        "files": [
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/warm_inference_components.png",
+          "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/warm_inference_components.svg"
+        ],
+        "plot_data": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/A26/a26-om-feedback-prior-completion/results/a26/evaluation/261009/figures/warm_inference_components_plot_data.csv",
+        "caption": "Inclusive raw-to-image inference is the sum of its measured encoder, CNN/box and image-transfer components. Offline forward audits are separate."
+      }
+    ],
+    "skipped": [],
+    "failures": []
+  },
+  "parent_scientific_callback": {
+    "scientific_gate": "NO_GO",
+    "reports": [
+      "A26_COMPLEX_SHAPE_RESULTS.md",
+      "A26_FEEDBACK_INCREMENTAL_VALUE.md",
+      "A26_FINAL_DECISION.md",
+      "A26_RESEARCH_REPORT_ZH.md",
+      "A26_START_HERE.md",
+      "README.md"
+    ],
+    "second_seed": "NOT_RUN_GATE_FAILED",
+    "locked": "NOT_OPENED"
+  },
+  "scientific_gate_decision_performed_by_technical_reporter": false
+}

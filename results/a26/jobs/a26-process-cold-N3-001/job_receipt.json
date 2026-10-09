@@ -1,0 +1,11 @@
+{
+  "job": "a26-process-cold-N3-001",
+  "status": "INTERRUPTED",
+  "device": "cuda",
+  "wall_seconds": 0.22754859999986365,
+  "process_cpu_seconds": 0.140625,
+  "gpu_occupation_seconds": 0.22754859999986365,
+  "charged_cpu_seconds": 0.140625,
+  "durable_reservations": {},
+  "measurement_role": "controller-measured interrupted child"
+}

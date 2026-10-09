@@ -1,0 +1,10 @@
+method,component,mean_seconds,records
+N1,encoder_seconds,0.02552591249695979,48
+N1,cnn_box_seconds,0.012029750000995895,48
+N1,image_transfer_seconds,0.0006424374951166101,48
+N2,encoder_seconds,0.11183861874693928,48
+N2,cnn_box_seconds,0.010993291668758806,48
+N2,image_transfer_seconds,0.000582502084095419,48
+N3,encoder_seconds,0.022894729176186956,48
+N3,cnn_box_seconds,0.013067864581292573,48
+N3,image_transfer_seconds,0.0007182979158339246,48

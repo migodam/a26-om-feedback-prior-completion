@@ -1,0 +1,43 @@
+{
+  "stage": "benchmark",
+  "job": "a26-training-benchmark-001",
+  "owner_id": "a26:a26-training-benchmark-001:14fab14988a04590b8adc3b215d38817",
+  "wall_seconds": 3.501505799998995,
+  "process_cpu_seconds": 2.59375,
+  "gpu_occupation_seconds": 3.501505799998995,
+  "counts": {
+    "normalization_images": 1536,
+    "training_microbenchmarks": 1,
+    "optimizer_updates": 1,
+    "optimizer_parent_images": 4,
+    "benchmark_training_updates": 1
+  },
+  "exclusive_walls": {
+    "a26_trainer_cache_and_targets_load": 0.5229981999727897,
+    "a26_train_only_pooled_normalizer": 0.06365769996773452,
+    "a26_cache_only_optimizer_update": 0.464391199988313,
+    "a26_cache_training_benchmark": 0.6610029000439681
+  },
+  "events": 4,
+  "peak_cpu_rss_bytes": 910741504,
+  "CPU_memory_measurement_available": true,
+  "peak_gpu_allocated_bytes": 2048512,
+  "peak_gpu_reserved_bytes": 4194304,
+  "device": "cuda",
+  "CPU_in_GPU_job_included": true,
+  "deployment_wall_definition": "inclusive parent elapsed; never sum nested spans",
+  "charged_cpu_seconds": 2.59375,
+  "gpu_host_only": false,
+  "raw_monitor_wall_seconds": null,
+  "durable_reservations": {},
+  "prior_cpu_seconds": 193.85978695805397,
+  "prior_gpu_seconds": 55.00104290002491,
+  "cpu_limit_seconds": 7200.0,
+  "gpu_limit_seconds": 14400.0,
+  "cpu_accounting_rule": "max(wall,processCPU) on CPU; processCPU on CUDA",
+  "gpu_accounting_rule": "entire CUDA job occupied wall",
+  "status": "FAILED",
+  "error": "RuntimeError: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility",
+  "receipt_version": 2,
+  "ended_utc": "2026-10-09T03:34:04Z"
+}

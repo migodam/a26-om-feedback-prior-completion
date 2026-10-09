@@ -1,0 +1,26 @@
+{
+  "tag": "a26-v0.1.0",
+  "assets": [
+    {
+      "name": "A26_REPRO_INPUTS.zip",
+      "bytes": 19770946,
+      "members": 8
+    },
+    {
+      "name": "A26_CHECKPOINTS.zip",
+      "bytes": 1090473,
+      "members": 9
+    },
+    {
+      "name": "A26_RAW_EVIDENCE.zip",
+      "bytes": 127179132,
+      "members": 400
+    }
+  ],
+  "new_labels": 0,
+  "locked_included": false,
+  "unopened_locked_parent_metadata_in_public_inputs": false,
+  "hash_checks": false,
+  "receipts_are_immutable": true,
+  "cutoff": "Preparation cutoff; subsequent publication is separately charged."
+}

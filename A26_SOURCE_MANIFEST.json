@@ -1,0 +1,22 @@
+{
+  "source_A25_commit": "59d8cc57c9da99ccb7978febc308193c43d6f3e5",
+  "A24_commit": "ca80ca2a29867e1b03589061dd5c17688c9acbe0",
+  "protocol": "A26-FROZEN-ENCODER-20261009-v1",
+  "new_source": "src/a26",
+  "physics_backend": "unchanged A24 2D TM A2 scalar VIE",
+  "new_labels": 0,
+  "training_parents": 64,
+  "exposed_validation_parents": 16,
+  "locked_ID_OOD": "NOT_OPENED_NOT_PUBLISHED",
+  "precision": "complex128/float64 physics; float32 CNN",
+  "seed": 261009,
+  "checkpoints_per_method": [
+    "best",
+    "middle",
+    "final"
+  ],
+  "git_release_commit": "Use actual Git commit / GitHub release target",
+  "hash_checks": false,
+  "independent_statistical_unit": "parent",
+  "publication_status": "TO_BE_VERIFIED_SEPARATELY"
+}

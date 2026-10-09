@@ -1,0 +1,605 @@
+test_balanced_nested_independent_parents_and_exact_ood_design (test_a25_guards.DatasetBoundaryTests) ... ok
+test_online_archive_rejects_mixed_truth_keys (test_a25_guards.DatasetBoundaryTests) ... ok
+test_remote_source_scope_never_packages_private_or_closed_truth (test_a25_guards.DatasetBoundaryTests) ... ok
+test_test_truth_closed_before_read (test_a25_guards.DatasetBoundaryTests) ... ok
+test_accepted_job_and_unknown_interruption_cannot_reset (test_a25_guards.DurableBudgetTests) ... ok
+test_cpu_wall_cap_and_cuda_monitor_does_not_double_charge_wait (test_a25_guards.DurableBudgetTests) ... ok
+test_foreign_lock_is_never_removed (test_a25_guards.DurableBudgetTests) ... ok
+test_receipts_restore_cpu_max_and_cuda_host_and_gpu_separately (test_a25_guards.DurableBudgetTests) ... ok
+test_reservation_aliases_share_one_global_cap (test_a25_guards.DurableBudgetTests) ... ok
+test_equal_parents_not_variant_counts_and_missing_rows_remain_missing (test_a25_guards.ParentAggregationTests) ... ok
+test_paired_bootstrap_is_parent_resampling_and_retains_failure (test_a25_guards.ParentAggregationTests) ... ok
+test_all_models_and_exact_checkpoint_set_required (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_checkpoint_rejects_changed_factors_with_same_provenance (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_cold_online_reader_requires_and_passes_frozen_context (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_exact_tv_includes_terminal_edges_and_known_background (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_noiseless_quality_residual_uses_differential_data (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_open_reservation_survives_and_denies_second_open (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_task_closure_provenance_binds_admitted_construction (test_a25_locked_guard.LockedGuardTests) ... ERROR
+test_acceleration_changes_optimizer_steps_but_not_certificate_steps (test_a25_prox.A25ProxTests) ... ERROR
+test_active_box_reference_retains_raw_multiplier_certificate (test_a25_prox.A25ProxTests) ... ERROR
+test_active_box_solution_from_known_joint_kkt (test_a25_prox.A25ProxTests) ... ERROR
+test_almost_solved_needs_strict_raw_certificate_and_cap_status_never_passes (test_a25_prox.A25ProxTests) ... ERROR
+test_certificate_envelope_handles_roundoff_and_leaves_raw_arrays_unchanged (test_a25_prox.A25ProxTests) ... ERROR
+test_explicit_reference_refinement_tightens_internals_only (test_a25_prox.A25ProxTests) ... ERROR
+test_fixed_certificate_cannot_be_shrunk_by_large_internal_sigma (test_a25_prox.A25ProxTests) ... ERROR
+test_frozen_tolerances_caps_old_control_and_fgp_guard (test_a25_prox.A25ProxTests) ... ERROR
+test_fused_two_cell_solution (test_a25_prox.A25ProxTests) ... ERROR
+test_independent_reference_matches_closed_form_and_pd_prox (test_a25_prox.A25ProxTests) ... ERROR
+test_independent_socp_epigraph_sign_and_physical_tv_scaling (test_a25_prox.A25ProxTests) ... ERROR
+test_independent_sparse_difference_and_real_adjoint_two_and_three_dimensions (test_a25_prox.A25ProxTests) ... ERROR
+test_joint_two_cell_closed_form_and_physical_error_bound (test_a25_prox.A25ProxTests) ... ERROR
+test_local_wall_cap_failure_without_sleep_or_clocking_owner_budget (test_a25_prox.A25ProxTests) ... ERROR
+test_numerical_failure_keeps_result_state_and_counts (test_a25_prox.A25ProxTests) ... ERROR
+test_owner_budget_stop_propagates_without_fallback (test_a25_prox.A25ProxTests) ... ERROR
+test_reference_iteration_failure_keeps_raw_status (test_a25_prox.A25ProxTests) ... ERROR
+test_warm_continuation_matches_two_fixed_steps_and_keeps_cumulative_cap (test_a25_prox.A25ProxTests) ... ERROR
+test_warm_owner_and_background_incompatibilities_fail (test_a25_prox.A25ProxTests) ... ERROR
+test_weight_change_reprojects_dual_resets_momentum_and_preserves_inputs (test_a25_prox.A25ProxTests) ... ERROR
+test_zero_tv_box_solution_and_counting_for_all_pdhg_modes (test_a25_prox.A25ProxTests) ... ERROR
+ERROR
+test_parent_schedule_is_shared_without_row_split (test_a25_torch.TrainingContractTests) ... ERROR
+test_tv_uses_increment_full_neumann_grid_and_mass_scale (test_a25_torch.TrainingContractTests) ... ERROR
+test_update_admission_uses_complete_cost_only (test_a25_torch.TrainingContractTests) ... ERROR
+test_a26_history_is_independent_and_failed_costs_are_retained (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_cpu_wall_and_monitor_accounting_and_caps (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_historical_scan_happens_once_at_job_start (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_interrupt_receipt_and_foreign_locks_are_preserved (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_invalid_cuda_occupation_receipt_cannot_erase_gpu_cost (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_terminal_receipts_immutable_and_unknown_interruption_blocks_next_job (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_zero_label_cap_is_hard_for_all_aliases_positive_limits_and_history (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_disguised_locked_split_fails_before_observation_and_truth (test_a26_data_budget.DataFirewallTests) ... ok
+test_exact_coverage_and_truth_access_order (test_a26_data_budget.DataFirewallTests) ... ok
+test_future_locked_guard_and_once_claims_read_no_locked_payload (test_a26_data_budget.DataFirewallTests) ... ok
+test_online_copies_only_allowed_observation_fields_and_accepts_batch (test_a26_data_budget.DataFirewallTests) ... ok
+test_parent_family_condition_noise_status_and_geometry_guards_precede_truth (test_a26_data_budget.DataFirewallTests) ... ok
+test_symlink_and_unknown_key_are_rejected_without_truth (test_a26_data_budget.DataFirewallTests) ... ok
+test_unapproved_roles_do_not_touch_files_or_arrays (test_a26_data_budget.DataFirewallTests) ... ok
+test_topology_zero_head_physical_scale_box_and_backward (test_a26_encoder_decoder.DecoderTests) ... ERROR
+ERROR
+test_checkpoint_weights_only_reload_preserves_prediction (test_a26_training.CacheTrainingTests) ... ok
+test_cost_selection_accounts_for_final_validation_and_reserve (test_a26_training.CacheTrainingTests) ... ok
+test_delta_loss_has_exact_target_minimum (test_a26_training.CacheTrainingTests) ... ok
+test_feature_cache_rejects_truth_and_is_immutable (test_a26_training.CacheTrainingTests) ... ok
+test_identical_initialization_and_actual_cache_only_update (test_a26_training.CacheTrainingTests) ... ok
+test_locked_role_rejected_before_any_archive_open (test_a26_training.CacheTrainingTests) ... ok
+test_metadata_firewall_precedes_feature_payload (test_a26_training.CacheTrainingTests) ... ok
+test_pooled_train_statistics_and_delta_scale (test_a26_training.CacheTrainingTests) ... ok
+test_sampler_is_matched_balanced_and_covers_all_rows (test_a26_training.CacheTrainingTests) ... ok
+test_validation_and_prediction_preserve_complete_rows_and_dtypes (test_a26_training.CacheTrainingTests) ... ok
+test_width_fallback_requires_prior_cost_failure (test_a26_training.CacheTrainingTests) ... ok
+ERROR
+test_missing_cases_without_counterexample_remain_hold (test_gates.GateAggregationTests) ... ERROR
+test_observed_universal_threshold_violation_is_fail_despite_missing_cases (test_gates.GateAggregationTests) ... ERROR
+test_budget_before_action_and_durable_cap (test_guards.GuardTests) ... ok
+test_budget_history_counts_failed_jobs_and_labels (test_guards.GuardTests) ... ok
+test_failed_span_charged_without_nested_doublecount (test_guards.GuardTests) ... ok
+test_material_mass_chart_roundtrip (test_guards.GuardTests) ... ok
+test_mixed_npz_rejected (test_guards.GuardTests) ... ok
+test_online_view_rejects_offline_fields (test_guards.GuardTests) ... ok
+test_pack_order_and_transpose (test_guards.GuardTests) ... ok
+test_runtime_config_removes_test_geometry (test_guards.GuardTests) ... ok
+test_unfinalized_job_cannot_reset_budget (test_guards.GuardTests) ... ok
+test_zero_scaled_and_singular_core (test_guards.GuardTests) ... ok
+test_constant_complex_field_has_zero_tv (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_fused_two_cell_solution_and_dual_complementarity (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_joint_box_active_solution_has_known_kkt_certificate (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_joint_real_imag_tv_and_physical_cell_volume_scaling (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_max_iteration_is_failure_with_metadata_and_optional_exception (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_neumann_gradient_real_adjoint_in_two_and_three_dimensions (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_normalized_backprojection_uses_standard_step_and_shared_prox (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_positive_tv_on_a_single_cell_is_analytic_box_prox (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_prox_physical_solution_is_consistent_under_mass_scaling (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_two_cell_joint_prox_matches_closed_form (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_zero_backprojection_never_calls_forward (test_material_updates.MaterialUpdatesTests) ... ERROR
+test_zero_weight_is_exact_box_prox_and_is_counted (test_material_updates.MaterialUpdatesTests) ... ERROR
+ERROR
+
+======================================================================
+ERROR: test_all_models_and_exact_checkpoint_set_required (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 20, in test_all_models_and_exact_checkpoint_set_required
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_checkpoint_rejects_changed_factors_with_same_provenance (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 107, in test_checkpoint_rejects_changed_factors_with_same_provenance
+    with get_ledger().span("a25_exact_cache_factor_binding_unit_test"):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_cold_online_reader_requires_and_passes_frozen_context (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 60, in test_cold_online_reader_requires_and_passes_frozen_context
+    with get_ledger().span("locked_cold_online_freeze_unit_test"):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_exact_tv_includes_terminal_edges_and_known_background (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 51, in test_exact_tv_includes_terminal_edges_and_known_background
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_noiseless_quality_residual_uses_differential_data (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 72, in test_noiseless_quality_residual_uses_differential_data
+    with get_ledger().span("locked_differential_residual_unit_test"):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_open_reservation_survives_and_denies_second_open (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 41, in test_open_reservation_survives_and_denies_second_open
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_task_closure_provenance_binds_admitted_construction (test_a25_locked_guard.LockedGuardTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_locked_guard.py", line 83, in test_task_closure_provenance_binds_admitted_construction
+    with get_ledger().span("a25_closure_provenance_guard_unit_test"):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_acceleration_changes_optimizer_steps_but_not_certificate_steps (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_active_box_reference_retains_raw_multiplier_certificate (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_active_box_solution_from_known_joint_kkt (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_almost_solved_needs_strict_raw_certificate_and_cap_status_never_passes (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_certificate_envelope_handles_roundoff_and_leaves_raw_arrays_unchanged (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_explicit_reference_refinement_tightens_internals_only (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_fixed_certificate_cannot_be_shrunk_by_large_internal_sigma (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_frozen_tolerances_caps_old_control_and_fgp_guard (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_fused_two_cell_solution (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_independent_reference_matches_closed_form_and_pd_prox (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_independent_socp_epigraph_sign_and_physical_tv_scaling (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_independent_sparse_difference_and_real_adjoint_two_and_three_dimensions (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_joint_two_cell_closed_form_and_physical_error_bound (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_local_wall_cap_failure_without_sleep_or_clocking_owner_budget (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_numerical_failure_keeps_result_state_and_counts (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_owner_budget_stop_propagates_without_fallback (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_reference_iteration_failure_keeps_raw_status (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_warm_continuation_matches_two_fixed_steps_and_keeps_cumulative_cap (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_warm_owner_and_background_incompatibilities_fail (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_weight_change_reprojects_dual_resets_momentum_and_preserves_inputs (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_zero_tv_box_solution_and_counting_for_all_pdhg_modes (test_a25_prox.A25ProxTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_prox.py", line 25, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: setUpClass (test_a25_torch.TorchPhysicsTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_torch.py", line 19, in setUpClass
+    cls.book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_parent_schedule_is_shared_without_row_split (test_a25_torch.TrainingContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_torch.py", line 174, in test_parent_schedule_is_shared_without_row_split
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_tv_uses_increment_full_neumann_grid_and_mass_scale (test_a25_torch.TrainingContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_torch.py", line 147, in test_tv_uses_increment_full_neumann_grid_and_mass_scale
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_update_admission_uses_complete_cost_only (test_a25_torch.TrainingContractTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a25_torch.py", line 190, in test_update_admission_uses_complete_cost_only
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_topology_zero_head_physical_scale_box_and_backward (test_a26_encoder_decoder.DecoderTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a26_encoder_decoder.py", line 286, in test_topology_zero_head_physical_scale_box_and_backward
+    book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: setUpClass (test_a26_encoder_decoder.EncoderTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_a26_encoder_decoder.py", line 113, in setUpClass
+    cls.book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: setUpClass (test_algebra.AlgebraTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_algebra.py", line 22, in setUpClass
+    cls.book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_missing_cases_without_counterexample_remain_hold (test_gates.GateAggregationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_gates.py", line 22, in test_missing_cases_without_counterexample_remain_hold
+    config=json.loads((root/'configs/a24_frozen.json').read_text())
+  File "D:\python\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\python\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION\\configs\\a24_frozen.json'
+
+======================================================================
+ERROR: test_observed_universal_threshold_violation_is_fail_despite_missing_cases (test_gates.GateAggregationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_gates.py", line 9, in test_observed_universal_threshold_violation_is_fail_despite_missing_cases
+    config=json.loads((root/'configs/a24_frozen.json').read_text())
+  File "D:\python\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\python\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION\\configs\\a24_frozen.json'
+
+======================================================================
+ERROR: test_constant_complex_field_has_zero_tv (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_fused_two_cell_solution_and_dual_complementarity (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_joint_box_active_solution_has_known_kkt_certificate (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_joint_real_imag_tv_and_physical_cell_volume_scaling (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_max_iteration_is_failure_with_metadata_and_optional_exception (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_neumann_gradient_real_adjoint_in_two_and_three_dimensions (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_normalized_backprojection_uses_standard_step_and_shared_prox (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_positive_tv_on_a_single_cell_is_analytic_box_prox (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_prox_physical_solution_is_consistent_under_mass_scaling (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_two_cell_joint_prox_matches_closed_form (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_zero_backprojection_never_calls_forward (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: test_zero_weight_is_exact_box_prox_and_is_counted (test_material_updates.MaterialUpdatesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_material_updates.py", line 14, in setUp
+    self.book = contracts.get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+======================================================================
+ERROR: setUpClass (test_physics.PhysicsTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_physics.py", line 20, in setUpClass
+    cls.book = get_ledger()
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a24\contracts.py", line 52, in get_ledger
+    raise RuntimeError('NO_ACTIVE_CHARGED_LEDGER')
+RuntimeError: NO_ACTIVE_CHARGED_LEDGER
+
+----------------------------------------------------------------------
+Ran 92 tests in 8.416s
+
+FAILED (errors=50)

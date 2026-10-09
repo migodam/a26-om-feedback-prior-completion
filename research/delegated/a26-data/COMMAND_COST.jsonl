@@ -1,0 +1,11 @@
+{"command": "initial memory and frozen protocol reads", "wall_seconds": 0.006758928298950195, "process_cpu_seconds": 0.0014949999999999963, "exit_status": 0}
+{"command": "read instructions and inventory source paths", "wall_seconds": 0.043504375, "process_cpu_seconds": 0.041444999999999996, "exit_status": 0}
+{"command": "inspect A25 budget and dataset source and safe directory inventory", "wall_seconds": 0.005191666999999999, "process_cpu_seconds": 0.0006039999999999969, "exit_status": 0}
+{"command": "inspect dataset metadata guards and CostBook overhead", "wall_seconds": 0.00040074999999999833, "process_cpu_seconds": 0.00040000000000000105, "exit_status": 0}
+{"command": "read public split and geometry manifests and headers without array payloads", "wall_seconds": 0.013560582999999998, "process_cpu_seconds": 0.005391999999999994, "exit_status": 0}
+{"command": "write independent A26 budget copy and static AST parse", "wall_seconds": 0.0036823750000000016, "process_cpu_seconds": 0.0032109999999999986, "exit_status": 0}
+{"command": "write metadata-first A26 data firewall and future locked authorization API", "wall_seconds": 0.007932541999999997, "process_cpu_seconds": 0.0030929999999999985, "exit_status": 0}
+{"command": "write synthetic A26 data-budget safety regressions; static AST parse only", "wall_seconds": 0.003210958, "process_cpu_seconds": 0.002824, "exit_status": 0}
+{"command": "static review of three owned Python files and safety test inventory", "wall_seconds": 0.014526708, "process_cpu_seconds": 0.009735, "exit_status": 0}
+{"command": "static hardening of CUDA receipt integrity and pre-manifest reserve validation", "wall_seconds": 0.011161542000000003, "process_cpu_seconds": 0.006814999999999995, "exit_status": 0}
+{"command": "final static parse and delegated interface status/cost summary", "wall_seconds": 0.015889, "process_cpu_seconds": 0.011177999999999997, "exit_status": 0}

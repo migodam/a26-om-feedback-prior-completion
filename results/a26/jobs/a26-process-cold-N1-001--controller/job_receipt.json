@@ -1,0 +1,12 @@
+{
+  "job": "a26-process-cold-N1-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.6541547999950126,
+  "process_cpu_seconds": 1.421875,
+  "gpu_occupation_seconds": 1.6541547999950126,
+  "charged_cpu_seconds": 1.421875,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

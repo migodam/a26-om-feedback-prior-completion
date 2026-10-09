@@ -1,0 +1,6 @@
+{"command": "read frozen protocol and pilot config", "wall_seconds": 0.00024637500000000007, "process_seconds": 0.0002459999999999997, "scope": "CACHE_ONLY_IMPLEMENTATION", "physics": false}
+{"command": "inspect inherited A25 trainer and dataset APIs", "wall_seconds": 0.0004947909999999979, "process_seconds": 0.0004949999999999989, "scope": "CACHE_ONLY_IMPLEMENTATION", "physics": false}
+{"command": "inspect checkpoint and background paths without opening data", "wall_seconds": 0.00029520799999999993, "process_seconds": 0.0002950000000000036, "scope": "CACHE_ONLY_IMPLEMENTATION", "physics": false}
+{"command": "AST parse training module and training tests only", "wall_seconds": 0.007745041000000001, "process_seconds": 0.007683000000000002, "scope": "STATIC_PARSE_ONLY", "physics": false, "tests_run": false, "maxrss": 17793024}
+{"command": "AST parse after repeat-seed cost reuse and source-provenance checks", "wall_seconds": 0.009383666999999998, "process_seconds": 0.009139000000000001, "scope": "STATIC_PARSE_ONLY", "physics": false, "tests_run": false}
+{"command": "AST parse after method-aware beta policy regression", "wall_seconds": 0.010262457999999999, "process_seconds": 0.010121999999999999, "scope": "STATIC_PARSE_ONLY", "physics": false, "tests_run": false}

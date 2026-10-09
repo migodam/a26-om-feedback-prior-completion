@@ -1,0 +1,163 @@
+test_balanced_nested_independent_parents_and_exact_ood_design (test_a25_guards.DatasetBoundaryTests) ... ok
+test_online_archive_rejects_mixed_truth_keys (test_a25_guards.DatasetBoundaryTests) ... ok
+test_remote_source_scope_never_packages_private_or_closed_truth (test_a25_guards.DatasetBoundaryTests) ... ok
+test_test_truth_closed_before_read (test_a25_guards.DatasetBoundaryTests) ... ok
+test_accepted_job_and_unknown_interruption_cannot_reset (test_a25_guards.DurableBudgetTests) ... ok
+test_cpu_wall_cap_and_cuda_monitor_does_not_double_charge_wait (test_a25_guards.DurableBudgetTests) ... ok
+test_foreign_lock_is_never_removed (test_a25_guards.DurableBudgetTests) ... ok
+test_receipts_restore_cpu_max_and_cuda_host_and_gpu_separately (test_a25_guards.DurableBudgetTests) ... ok
+test_reservation_aliases_share_one_global_cap (test_a25_guards.DurableBudgetTests) ... ok
+test_equal_parents_not_variant_counts_and_missing_rows_remain_missing (test_a25_guards.ParentAggregationTests) ... ok
+test_paired_bootstrap_is_parent_resampling_and_retains_failure (test_a25_guards.ParentAggregationTests) ... ok
+test_all_models_and_exact_checkpoint_set_required (test_a25_locked_guard.LockedGuardTests) ... ok
+test_checkpoint_rejects_changed_factors_with_same_provenance (test_a25_locked_guard.LockedGuardTests) ... ok
+test_cold_online_reader_requires_and_passes_frozen_context (test_a25_locked_guard.LockedGuardTests) ... ok
+test_exact_tv_includes_terminal_edges_and_known_background (test_a25_locked_guard.LockedGuardTests) ... ok
+test_noiseless_quality_residual_uses_differential_data (test_a25_locked_guard.LockedGuardTests) ... ok
+test_open_reservation_survives_and_denies_second_open (test_a25_locked_guard.LockedGuardTests) ... ok
+test_task_closure_provenance_binds_admitted_construction (test_a25_locked_guard.LockedGuardTests) ... ok
+test_acceleration_changes_optimizer_steps_but_not_certificate_steps (test_a25_prox.A25ProxTests) ... ok
+test_active_box_reference_retains_raw_multiplier_certificate (test_a25_prox.A25ProxTests) ... skipped 'Independent Clarabel 0.11.1 reference NOT_RUN: dependency absent'
+test_active_box_solution_from_known_joint_kkt (test_a25_prox.A25ProxTests) ... ok
+test_almost_solved_needs_strict_raw_certificate_and_cap_status_never_passes (test_a25_prox.A25ProxTests) ... ok
+test_certificate_envelope_handles_roundoff_and_leaves_raw_arrays_unchanged (test_a25_prox.A25ProxTests) ... ok
+test_explicit_reference_refinement_tightens_internals_only (test_a25_prox.A25ProxTests) ... ok
+test_fixed_certificate_cannot_be_shrunk_by_large_internal_sigma (test_a25_prox.A25ProxTests) ... ok
+test_frozen_tolerances_caps_old_control_and_fgp_guard (test_a25_prox.A25ProxTests) ... ok
+test_fused_two_cell_solution (test_a25_prox.A25ProxTests) ... ok
+test_independent_reference_matches_closed_form_and_pd_prox (test_a25_prox.A25ProxTests) ... skipped 'Independent Clarabel 0.11.1 reference NOT_RUN: dependency absent'
+test_independent_socp_epigraph_sign_and_physical_tv_scaling (test_a25_prox.A25ProxTests) ... ok
+test_independent_sparse_difference_and_real_adjoint_two_and_three_dimensions (test_a25_prox.A25ProxTests) ... ok
+test_joint_two_cell_closed_form_and_physical_error_bound (test_a25_prox.A25ProxTests) ... ok
+test_local_wall_cap_failure_without_sleep_or_clocking_owner_budget (test_a25_prox.A25ProxTests) ... ok
+test_numerical_failure_keeps_result_state_and_counts (test_a25_prox.A25ProxTests) ... ok
+test_owner_budget_stop_propagates_without_fallback (test_a25_prox.A25ProxTests) ... ok
+test_reference_iteration_failure_keeps_raw_status (test_a25_prox.A25ProxTests) ... skipped 'Independent Clarabel 0.11.1 reference NOT_RUN: dependency absent'
+test_warm_continuation_matches_two_fixed_steps_and_keeps_cumulative_cap (test_a25_prox.A25ProxTests) ... ok
+test_warm_owner_and_background_incompatibilities_fail (test_a25_prox.A25ProxTests) ... ok
+test_weight_change_reprojects_dual_resets_momentum_and_preserves_inputs (test_a25_prox.A25ProxTests) ... ok
+test_zero_tv_box_solution_and_counting_for_all_pdhg_modes (test_a25_prox.A25ProxTests) ... ok
+test_jvp_and_strict_discrete_adjoint (test_a25_torch.TorchPhysicsTests) ... ok
+test_mps_and_validation_normalization_are_rejected (test_a25_torch.TorchPhysicsTests) ... ok
+test_numpy_identity_and_real_packing (test_a25_torch.TorchPhysicsTests) ... ok
+test_parameter_match_and_paper_topology (test_a25_torch.TorchPhysicsTests) ... ok
+test_singular_core_is_rejected (test_a25_torch.TorchPhysicsTests) ... ok
+test_source_symmetric_features (test_a25_torch.TorchPhysicsTests) ... ok
+test_state_gradient_retains_higher_derivative (test_a25_torch.TorchPhysicsTests) ... ok
+test_parent_schedule_is_shared_without_row_split (test_a25_torch.TrainingContractTests) ... ok
+test_tv_uses_increment_full_neumann_grid_and_mass_scale (test_a25_torch.TrainingContractTests) ... ok
+test_update_admission_uses_complete_cost_only (test_a25_torch.TrainingContractTests) ... ok
+test_a26_history_is_independent_and_failed_costs_are_retained (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_cpu_wall_and_monitor_accounting_and_caps (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_historical_scan_happens_once_at_job_start (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_interrupt_receipt_and_foreign_locks_are_preserved (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_invalid_cuda_occupation_receipt_cannot_erase_gpu_cost (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_terminal_receipts_immutable_and_unknown_interruption_blocks_next_job (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_zero_label_cap_is_hard_for_all_aliases_positive_limits_and_history (test_a26_data_budget.BudgetSafetyTests) ... ok
+test_disguised_locked_split_fails_before_observation_and_truth (test_a26_data_budget.DataFirewallTests) ... ok
+test_exact_coverage_and_truth_access_order (test_a26_data_budget.DataFirewallTests) ... ok
+test_future_locked_guard_and_once_claims_read_no_locked_payload (test_a26_data_budget.DataFirewallTests) ... ok
+test_online_copies_only_allowed_observation_fields_and_accepts_batch (test_a26_data_budget.DataFirewallTests) ... ok
+test_parent_family_condition_noise_status_and_geometry_guards_precede_truth (test_a26_data_budget.DataFirewallTests) ... ok
+test_symlink_and_unknown_key_are_rejected_without_truth (test_a26_data_budget.DataFirewallTests) ... ok
+test_unapproved_roles_do_not_touch_files_or_arrays (test_a26_data_budget.DataFirewallTests) ... ok
+test_topology_zero_head_physical_scale_box_and_backward (test_a26_encoder_decoder.DecoderTests) ... ok
+test_L_bases_match_and_L_methods_never_run_R (test_a26_encoder_decoder.EncoderTests) ... ok
+test_N2_matched_gradient_OM_and_beta (test_a26_encoder_decoder.EncoderTests) ... ok
+test_confidence_full_nullspace_noise_groups_and_export (test_a26_encoder_decoder.EncoderTests) ... ok
+test_original_provenance_and_cache_firewall (test_a26_encoder_decoder.EncoderTests) ... ok
+test_relative_residual_and_dark_denominator_fail (test_a26_encoder_decoder.EncoderTests) ... ok
+test_source_permutation_and_loader_are_background_only (test_a26_encoder_decoder.EncoderTests) ... ok
+test_unsafe_OM_rank_rejected_lazily (test_a26_encoder_decoder.EncoderTests) ... ok
+test_wrong_background_j_and_changed_guard_are_rejected (test_a26_encoder_decoder.EncoderTests) ... ok
+test_beta_is_only_computed_by_n2_and_never_in_noiseless_cases (test_a26_training.CacheTrainingTests) ... ok
+test_checkpoint_weights_only_reload_preserves_prediction (test_a26_training.CacheTrainingTests) ... ok
+test_cost_selection_accounts_for_final_validation_and_reserve (test_a26_training.CacheTrainingTests) ... ok
+test_delta_loss_has_exact_target_minimum (test_a26_training.CacheTrainingTests) ... ok
+test_feature_cache_rejects_truth_and_is_immutable (test_a26_training.CacheTrainingTests) ... ok
+test_identical_initialization_and_actual_cache_only_update (test_a26_training.CacheTrainingTests) ... ok
+test_locked_role_rejected_before_any_archive_open (test_a26_training.CacheTrainingTests) ... ok
+test_metadata_firewall_precedes_feature_payload (test_a26_training.CacheTrainingTests) ... ok
+test_pooled_train_statistics_and_delta_scale (test_a26_training.CacheTrainingTests) ... ok
+test_sampler_is_matched_balanced_and_covers_all_rows (test_a26_training.CacheTrainingTests) ... ok
+test_validation_and_prediction_preserve_complete_rows_and_dtypes (test_a26_training.CacheTrainingTests) ... ok
+test_width_fallback_requires_prior_cost_failure (test_a26_training.CacheTrainingTests) ... ok
+ERROR
+test_missing_cases_without_counterexample_remain_hold (test_gates.GateAggregationTests) ... ERROR
+test_observed_universal_threshold_violation_is_fail_despite_missing_cases (test_gates.GateAggregationTests) ... ERROR
+test_budget_before_action_and_durable_cap (test_guards.GuardTests) ... ok
+test_budget_history_counts_failed_jobs_and_labels (test_guards.GuardTests) ... ok
+test_failed_span_charged_without_nested_doublecount (test_guards.GuardTests) ... ok
+test_material_mass_chart_roundtrip (test_guards.GuardTests) ... ok
+test_mixed_npz_rejected (test_guards.GuardTests) ... ok
+test_online_view_rejects_offline_fields (test_guards.GuardTests) ... ok
+test_pack_order_and_transpose (test_guards.GuardTests) ... ok
+test_runtime_config_removes_test_geometry (test_guards.GuardTests) ... ok
+test_unfinalized_job_cannot_reset_budget (test_guards.GuardTests) ... ok
+test_zero_scaled_and_singular_core (test_guards.GuardTests) ... ok
+test_constant_complex_field_has_zero_tv (test_material_updates.MaterialUpdatesTests) ... ok
+test_fused_two_cell_solution_and_dual_complementarity (test_material_updates.MaterialUpdatesTests) ... ok
+test_joint_box_active_solution_has_known_kkt_certificate (test_material_updates.MaterialUpdatesTests) ... ok
+test_joint_real_imag_tv_and_physical_cell_volume_scaling (test_material_updates.MaterialUpdatesTests) ... ok
+test_max_iteration_is_failure_with_metadata_and_optional_exception (test_material_updates.MaterialUpdatesTests) ... ok
+test_neumann_gradient_real_adjoint_in_two_and_three_dimensions (test_material_updates.MaterialUpdatesTests) ... ok
+test_normalized_backprojection_uses_standard_step_and_shared_prox (test_material_updates.MaterialUpdatesTests) ... ok
+test_positive_tv_on_a_single_cell_is_analytic_box_prox (test_material_updates.MaterialUpdatesTests) ... ok
+test_prox_physical_solution_is_consistent_under_mass_scaling (test_material_updates.MaterialUpdatesTests) ... ok
+test_two_cell_joint_prox_matches_closed_form (test_material_updates.MaterialUpdatesTests) ... ok
+test_zero_backprojection_never_calls_forward (test_material_updates.MaterialUpdatesTests) ... ok
+test_zero_weight_is_exact_box_prox_and_is_counted (test_material_updates.MaterialUpdatesTests) ... ok
+ERROR
+
+======================================================================
+ERROR: setUpClass (test_algebra.AlgebraTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_algebra.py", line 26, in setUpClass
+    'configs/a24_frozen.json').read_text())
+  File "D:\python\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\python\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION\\configs\\a24_frozen.json'
+
+======================================================================
+ERROR: test_missing_cases_without_counterexample_remain_hold (test_gates.GateAggregationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_gates.py", line 22, in test_missing_cases_without_counterexample_remain_hold
+    config=json.loads((root/'configs/a24_frozen.json').read_text())
+  File "D:\python\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\python\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION\\configs\\a24_frozen.json'
+
+======================================================================
+ERROR: test_observed_universal_threshold_violation_is_fail_despite_missing_cases (test_gates.GateAggregationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_gates.py", line 9, in test_observed_universal_threshold_violation_is_fail_despite_missing_cases
+    config=json.loads((root/'configs/a24_frozen.json').read_text())
+  File "D:\python\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\python\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION\\configs\\a24_frozen.json'
+
+======================================================================
+ERROR: setUpClass (test_physics.PhysicsTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tests\test_physics.py", line 23, in setUpClass
+    'configs/a24_frozen.json').read_text())
+  File "D:\python\lib\pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\python\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\AI\\A26_OM_FEEDBACK_PRIOR_COMPLETION\\configs\\a24_frozen.json'
+
+----------------------------------------------------------------------
+Ran 108 tests in 13.347s
+
+FAILED (errors=4, skipped=3)

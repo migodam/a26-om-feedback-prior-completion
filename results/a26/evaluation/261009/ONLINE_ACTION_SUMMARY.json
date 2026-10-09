@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "method": "N1",
+      "counter": "Db_actions",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N1",
+      "counter": "Db_adjoint_actions",
+      "median": 16.0,
+      "minimum": 16,
+      "maximum": 16
+    },
+    {
+      "method": "N1",
+      "counter": "a26_common_initial_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N1",
+      "counter": "a26_encoded_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N1",
+      "counter": "a26_forward_residual_audits",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N1",
+      "counter": "a26_observable_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N1",
+      "counter": "data_adjoint_directions",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N1",
+      "counter": "data_adjoint_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N1",
+      "counter": "material_ratio_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N1",
+      "counter": "relative_forward_calls",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N1",
+      "counter": "relative_forward_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N2",
+      "counter": "Db_actions",
+      "median": 16.0,
+      "minimum": 16,
+      "maximum": 16
+    },
+    {
+      "method": "N2",
+      "counter": "Db_adjoint_actions",
+      "median": 16.0,
+      "minimum": 16,
+      "maximum": 16
+    },
+    {
+      "method": "N2",
+      "counter": "LU_factorizations",
+      "median": 2.0,
+      "minimum": 2,
+      "maximum": 2
+    },
+    {
+      "method": "N2",
+      "counter": "a26_common_initial_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N2",
+      "counter": "a26_encoded_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N2",
+      "counter": "a26_forward_residual_audits",
+      "median": 2.0,
+      "minimum": 2,
+      "maximum": 2
+    },
+    {
+      "method": "N2",
+      "counter": "a26_observable_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N2",
+      "counter": "core_guards",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N2",
+      "counter": "data_adjoint_directions",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N2",
+      "counter": "data_adjoint_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N2",
+      "counter": "feedback_K_LU_factorizations",
+      "median": 2.0,
+      "minimum": 2,
+      "maximum": 2
+    },
+    {
+      "method": "N2",
+      "counter": "linear_solve_rhs",
+      "median": 16.0,
+      "minimum": 16,
+      "maximum": 16
+    },
+    {
+      "method": "N2",
+      "counter": "lowrank_feedback_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N2",
+      "counter": "material_ratio_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N2",
+      "counter": "relative_forward_calls",
+      "median": 2.0,
+      "minimum": 2,
+      "maximum": 2
+    },
+    {
+      "method": "N2",
+      "counter": "relative_forward_source_rhs",
+      "median": 16.0,
+      "minimum": 16,
+      "maximum": 16
+    },
+    {
+      "method": "N3",
+      "counter": "Db_actions",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N3",
+      "counter": "Db_adjoint_actions",
+      "median": 16.0,
+      "minimum": 16,
+      "maximum": 16
+    },
+    {
+      "method": "N3",
+      "counter": "a26_common_initial_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N3",
+      "counter": "a26_encoded_images",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N3",
+      "counter": "a26_forward_residual_audits",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N3",
+      "counter": "data_adjoint_directions",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N3",
+      "counter": "data_adjoint_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    },
+    {
+      "method": "N3",
+      "counter": "relative_forward_calls",
+      "median": 1.0,
+      "minimum": 1,
+      "maximum": 1
+    },
+    {
+      "method": "N3",
+      "counter": "relative_forward_source_rhs",
+      "median": 8.0,
+      "minimum": 8,
+      "maximum": 8
+    }
+  ],
+  "nested_counters_not_additive": true
+}

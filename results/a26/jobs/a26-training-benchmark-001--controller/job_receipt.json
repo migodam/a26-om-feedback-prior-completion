@@ -1,0 +1,12 @@
+{
+  "job": "a26-training-benchmark-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.5869443999836221,
+  "process_cpu_seconds": 1.5,
+  "gpu_occupation_seconds": 1.5869443999836221,
+  "charged_cpu_seconds": 1.5,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

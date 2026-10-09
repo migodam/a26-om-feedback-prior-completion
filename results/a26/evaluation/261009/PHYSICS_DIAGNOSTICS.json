@@ -1,0 +1,3810 @@
+[
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 7.382727267383783e-07,
+    "differential_forward_relative_error": 7.286789257557779e-05,
+    "adjoint_relative_error": 0.00038319680699518165,
+    "jvp_relative_error": 0.00041792909497007883,
+    "gradient_relative_error": 0.0005550983584628617,
+    "gradient_cosine": 0.9999998511949622,
+    "reduced_adjoint_dot_defect": 3.538432697937317e-16,
+    "boxed_update_relative_error": 0.0005550983584635247,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9844790906536527
+        ],
+        "condition": [
+          1.0157656058860955
+        ]
+      }
+    },
+    "full_backward_residual": 9.05595480713276e-16,
+    "L_forward_relative_error": 0.0001076735376523793,
+    "L_gradient_cosine": 0.9994511510526518,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.2326507729560932e-05,
+    "differential_forward_relative_error": 0.0003045760392797163,
+    "adjoint_relative_error": 0.0015377787362255819,
+    "jvp_relative_error": 0.0021746405496815414,
+    "gradient_relative_error": 0.0023574692490480253,
+    "gradient_cosine": 0.9999972939101565,
+    "reduced_adjoint_dot_defect": 1.456984020395327e-16,
+    "boxed_update_relative_error": 0.0023574692490483558,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9395764979335129
+        ],
+        "condition": [
+          1.0643092948784707
+        ]
+      }
+    },
+    "full_backward_residual": 8.978995579948632e-16,
+    "L_forward_relative_error": 0.0017421345530212373,
+    "L_gradient_cosine": 0.991560747995591,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.8151550239222207e-05,
+    "differential_forward_relative_error": 0.00019939813975565534,
+    "adjoint_relative_error": 0.0007466481541432338,
+    "jvp_relative_error": 0.0008774316052220509,
+    "gradient_relative_error": 0.001520430554910408,
+    "gradient_cosine": 0.999998919383073,
+    "reduced_adjoint_dot_defect": 9.586006499706758e-16,
+    "boxed_update_relative_error": 0.0015204305549104144,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9589855706075963
+        ],
+        "condition": [
+          1.0427685573688223
+        ]
+      }
+    },
+    "full_backward_residual": 6.766216419428919e-16,
+    "L_forward_relative_error": 0.0026672483499264638,
+    "L_gradient_cosine": 0.99547861230392,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 0.00019547028892408382,
+    "differential_forward_relative_error": 0.0007046135034394313,
+    "adjoint_relative_error": 0.0038475553854596667,
+    "jvp_relative_error": 0.002714192953136459,
+    "gradient_relative_error": 0.0058585499280193205,
+    "gradient_cosine": 0.9999836085919206,
+    "reduced_adjoint_dot_defect": 1.7752556034509325e-16,
+    "boxed_update_relative_error": 0.005858549928019287,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8524297254482833
+        ],
+        "condition": [
+          1.1731172320089038
+        ]
+      }
+    },
+    "full_backward_residual": 6.487317705124964e-16,
+    "L_forward_relative_error": 0.030572731244065874,
+    "L_gradient_cosine": 0.9517450802117766,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.1502254018658288e-06,
+    "differential_forward_relative_error": 9.489640489019453e-05,
+    "adjoint_relative_error": 0.000545918268779889,
+    "jvp_relative_error": 0.00039931037827025333,
+    "gradient_relative_error": 0.000627991646834449,
+    "gradient_cosine": 0.9999998052374023,
+    "reduced_adjoint_dot_defect": 2.4239944355382484e-16,
+    "boxed_update_relative_error": 0.0006279916468317581,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9807009262607953
+        ],
+        "condition": [
+          1.019678857460437
+        ]
+      }
+    },
+    "full_backward_residual": 9.316963581230784e-16,
+    "L_forward_relative_error": 0.00015042078258106954,
+    "L_gradient_cosine": 0.9993304720475071,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.9498309573683523e-05,
+    "differential_forward_relative_error": 0.00037969214071846335,
+    "adjoint_relative_error": 0.0022368064218963543,
+    "jvp_relative_error": 0.0022507191063890026,
+    "gradient_relative_error": 0.0025486985311259725,
+    "gradient_cosine": 0.9999967859738221,
+    "reduced_adjoint_dot_defect": 5.434669236789993e-16,
+    "boxed_update_relative_error": 0.0025486985311258385,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9226946854770949
+        ],
+        "condition": [
+          1.0837821174649263
+        ]
+      }
+    },
+    "full_backward_residual": 8.966641904361958e-16,
+    "L_forward_relative_error": 0.002673672985782337,
+    "L_gradient_cosine": 0.9887860058790087,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.8113925179757005e-05,
+    "differential_forward_relative_error": 0.0001635615524234922,
+    "adjoint_relative_error": 0.0008758670493434881,
+    "jvp_relative_error": 0.0010355625381439353,
+    "gradient_relative_error": 0.0012143106558410756,
+    "gradient_cosine": 0.999999279553774,
+    "reduced_adjoint_dot_defect": 8.636887726818066e-16,
+    "boxed_update_relative_error": 0.0012143106558411036,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9502998499691948
+        ],
+        "condition": [
+          1.052299440047703
+        ]
+      }
+    },
+    "full_backward_residual": 6.698385393587956e-16,
+    "L_forward_relative_error": 0.0038730834659402506,
+    "L_gradient_cosine": 0.9933352153704487,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 0.0001988887584808234,
+    "differential_forward_relative_error": 0.0006265719823112961,
+    "adjoint_relative_error": 0.002998786046028298,
+    "jvp_relative_error": 0.004022034540095286,
+    "gradient_relative_error": 0.004366168615919528,
+    "gradient_cosine": 0.9999905724759471,
+    "reduced_adjoint_dot_defect": 9.469391183844154e-16,
+    "boxed_update_relative_error": 0.004366168615919528,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8261248058466595
+        ],
+        "condition": [
+          1.21047085491537
+        ]
+      }
+    },
+    "full_backward_residual": 6.636387162377639e-16,
+    "L_forward_relative_error": 0.04143260348738613,
+    "L_gradient_cosine": 0.9391768983519216,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 5.292587121666516e-07,
+    "differential_forward_relative_error": 4.9521225695155276e-05,
+    "adjoint_relative_error": 0.0004043396078980287,
+    "jvp_relative_error": 0.0003664242995111366,
+    "gradient_relative_error": 0.00044623377128675417,
+    "gradient_cosine": 0.9999999016629569,
+    "reduced_adjoint_dot_defect": 2.8045594166955903e-15,
+    "boxed_update_relative_error": 0.0004462337712848422,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9841161328233894
+        ],
+        "condition": [
+          1.0161402365501726
+        ]
+      }
+    },
+    "full_backward_residual": 8.964451478721811e-16,
+    "L_forward_relative_error": 0.00010838963976253461,
+    "L_gradient_cosine": 0.9994929959763866,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.050071895152748e-05,
+    "differential_forward_relative_error": 0.00023166040216810024,
+    "adjoint_relative_error": 0.0015836027785128238,
+    "jvp_relative_error": 0.0017121319625750544,
+    "gradient_relative_error": 0.0021644120673303866,
+    "gradient_cosine": 0.9999976784346191,
+    "reduced_adjoint_dot_defect": 2.9098508927427717e-16,
+    "boxed_update_relative_error": 0.0021644120673300887,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9365982694431222
+        ],
+        "condition": [
+          1.0676936234300058
+        ]
+      }
+    },
+    "full_backward_residual": 9.042954818343378e-16,
+    "L_forward_relative_error": 0.001979693072367984,
+    "L_gradient_cosine": 0.9905728470396203,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.8033435907240068e-05,
+    "differential_forward_relative_error": 0.00016867477052145594,
+    "adjoint_relative_error": 0.0008117630997377061,
+    "jvp_relative_error": 0.0007359387907968348,
+    "gradient_relative_error": 0.0013575728695501815,
+    "gradient_cosine": 0.9999991108238374,
+    "reduced_adjoint_dot_defect": 3.1897279720146784e-15,
+    "boxed_update_relative_error": 0.0013575728695500483,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9514476664244021
+        ],
+        "condition": [
+          1.051029957073793
+        ]
+      }
+    },
+    "full_backward_residual": 6.696752720811942e-16,
+    "L_forward_relative_error": 0.0036780338512612367,
+    "L_gradient_cosine": 0.9936087576747537,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 0.00018166235129127756,
+    "differential_forward_relative_error": 0.000597141773668094,
+    "adjoint_relative_error": 0.0033480632196020515,
+    "jvp_relative_error": 0.0035550827472028844,
+    "gradient_relative_error": 0.004986931797975098,
+    "gradient_cosine": 0.9999878013385771,
+    "reduced_adjoint_dot_defect": 9.104904494761615e-16,
+    "boxed_update_relative_error": 0.004986931797975114,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8336204710900749
+        ],
+        "condition": [
+          1.1995866640515207
+        ]
+      }
+    },
+    "full_backward_residual": 6.443381005774883e-16,
+    "L_forward_relative_error": 0.0378852418065972,
+    "L_gradient_cosine": 0.9403897227292967,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 1.2690761240313568e-06,
+    "differential_forward_relative_error": 9.199041079372742e-05,
+    "adjoint_relative_error": 0.0005549792446929695,
+    "jvp_relative_error": 0.0006260938437248574,
+    "gradient_relative_error": 0.000662740030246749,
+    "gradient_cosine": 0.999999790749288,
+    "reduced_adjoint_dot_defect": 1.026294959813327e-15,
+    "boxed_update_relative_error": 0.0006627400302477606,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9783712450245149
+        ],
+        "condition": [
+          1.0221068996921951
+        ]
+      }
+    },
+    "full_backward_residual": 9.199079613350693e-16,
+    "L_forward_relative_error": 0.00020543877531405995,
+    "L_gradient_cosine": 0.9989977258575153,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 2.0087196471948553e-05,
+    "differential_forward_relative_error": 0.00036668288872361294,
+    "adjoint_relative_error": 0.001983368951863298,
+    "jvp_relative_error": 0.0029390899143082964,
+    "gradient_relative_error": 0.002610467443645135,
+    "gradient_cosine": 0.9999967315557035,
+    "reduced_adjoint_dot_defect": 5.847515482050724e-16,
+    "boxed_update_relative_error": 0.002610467443645115,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9175834023817946
+        ],
+        "condition": [
+          1.0898191896281848
+        ]
+      }
+    },
+    "full_backward_residual": 9.067114031690973e-16,
+    "L_forward_relative_error": 0.0032689102618958647,
+    "L_gradient_cosine": 0.9858398729299447,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 2.0348590187669422e-05,
+    "differential_forward_relative_error": 0.00018897786692965543,
+    "adjoint_relative_error": 0.000994852231851576,
+    "jvp_relative_error": 0.001077283922123894,
+    "gradient_relative_error": 0.001544199878114344,
+    "gradient_cosine": 0.9999988543564177,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.0015441998781142888,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9517006463377709
+        ],
+        "condition": [
+          1.0507505735633251
+        ]
+      }
+    },
+    "full_backward_residual": 6.620071385950271e-16,
+    "L_forward_relative_error": 0.00365015076872271,
+    "L_gradient_cosine": 0.9937576958314678,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "INITIAL",
+    "method": "COMMON",
+    "forward_relative_error": 0.00019505183400572875,
+    "differential_forward_relative_error": 0.0006269994869840758,
+    "adjoint_relative_error": 0.0032946084671169836,
+    "jvp_relative_error": 0.0031240518181922974,
+    "gradient_relative_error": 0.005605428248333206,
+    "gradient_cosine": 0.9999846828463183,
+    "reduced_adjoint_dot_defect": 2.010388283821676e-15,
+    "boxed_update_relative_error": 0.005605428248333266,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8331643689008329
+        ],
+        "condition": [
+          1.2002433581254417
+        ]
+      }
+    },
+    "full_backward_residual": 6.492232901255422e-16,
+    "L_forward_relative_error": 0.03864337511343081,
+    "L_gradient_cosine": 0.93985142051816,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 8.843109121196124e-05,
+    "differential_forward_relative_error": 0.0039205135310716715,
+    "adjoint_relative_error": 0.0032420827104768387,
+    "jvp_relative_error": 0.0031179426259447278,
+    "gradient_relative_error": 0.022531517437185424,
+    "gradient_cosine": 0.9998786800298651,
+    "reduced_adjoint_dot_defect": 7.10772052843338e-16,
+    "boxed_update_relative_error": 0.02253151743718049,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.921145893234282
+        ],
+        "condition": [
+          1.0856043622892888
+        ]
+      }
+    },
+    "full_backward_residual": 9.050545469152679e-16,
+    "L_forward_relative_error": 0.0011914745277945707,
+    "L_gradient_cosine": 0.9730860182031301,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.001475847724871305,
+    "differential_forward_relative_error": 0.01615080293653683,
+    "adjoint_relative_error": 0.016042348381170534,
+    "jvp_relative_error": 0.02012552256609537,
+    "gradient_relative_error": 0.13380302388288584,
+    "gradient_cosine": 0.9955088718451984,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.13380302388288773,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.7186246265411289
+        ],
+        "condition": [
+          1.3915470790545852
+        ]
+      }
+    },
+    "full_backward_residual": 9.048375870746156e-16,
+    "L_forward_relative_error": 0.019075058698163363,
+    "L_gradient_cosine": 0.5221619401786383,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.0005058860703028725,
+    "differential_forward_relative_error": 0.0029575506523268342,
+    "adjoint_relative_error": 0.003181828146467077,
+    "jvp_relative_error": 0.0036422709449072774,
+    "gradient_relative_error": 0.028493453836432103,
+    "gradient_cosine": 0.9997174821800182,
+    "reduced_adjoint_dot_defect": 7.51062636844189e-15,
+    "boxed_update_relative_error": 0.028493453836432234,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.901130135256641
+        ],
+        "condition": [
+          1.1097176321988178
+        ]
+      }
+    },
+    "full_backward_residual": 6.692942462958956e-16,
+    "L_forward_relative_error": 0.01432470751096329,
+    "L_gradient_cosine": 0.6647062112853936,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.00823026684463338,
+    "differential_forward_relative_error": 0.01641427124512843,
+    "adjoint_relative_error": 0.021178347912835075,
+    "jvp_relative_error": 0.01320585846967316,
+    "gradient_relative_error": 0.2566067914737452,
+    "gradient_cosine": 0.9723074228271485,
+    "reduced_adjoint_dot_defect": 8.502038065123345e-16,
+    "boxed_update_relative_error": 0.25660679147374527,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6357199974823983
+        ],
+        "condition": [
+          1.5730195745929605
+        ]
+      }
+    },
+    "full_backward_residual": 6.534708061468501e-16,
+    "L_forward_relative_error": 0.18658224768794193,
+    "L_gradient_cosine": -0.41212040318328236,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.00012617817412614296,
+    "differential_forward_relative_error": 0.004418238404365475,
+    "adjoint_relative_error": 0.004329259525167526,
+    "jvp_relative_error": 0.0035016049452579233,
+    "gradient_relative_error": 0.04183767954528882,
+    "gradient_cosine": 0.9993979181995613,
+    "reduced_adjoint_dot_defect": 7.635913452081381e-16,
+    "boxed_update_relative_error": 0.04183767954529019,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9065695094401033
+        ],
+        "condition": [
+          1.1030593788860155
+        ]
+      }
+    },
+    "full_backward_residual": 8.983511522783627e-16,
+    "L_forward_relative_error": 0.001854160962276739,
+    "L_gradient_cosine": 0.9372758614223536,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.0021515913686827822,
+    "differential_forward_relative_error": 0.018911513447274143,
+    "adjoint_relative_error": 0.02315635009255396,
+    "jvp_relative_error": 0.020260361090188382,
+    "gradient_relative_error": 0.08474570343607016,
+    "gradient_cosine": 0.9988751978366681,
+    "reduced_adjoint_dot_defect": 1.2568633872334436e-15,
+    "boxed_update_relative_error": 0.08474570343607113,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6711743238484565
+        ],
+        "condition": [
+          1.4899258873105947
+        ]
+      }
+    },
+    "full_backward_residual": 9.05986875425059e-16,
+    "L_forward_relative_error": 0.030199536809170487,
+    "L_gradient_cosine": 0.7315281188236473,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.0006326831029349066,
+    "differential_forward_relative_error": 0.0030668575611424815,
+    "adjoint_relative_error": 0.003961737155197292,
+    "jvp_relative_error": 0.00446741330118167,
+    "gradient_relative_error": 0.0328874499041936,
+    "gradient_cosine": 0.9994759426719106,
+    "reduced_adjoint_dot_defect": 2.7871752236870256e-16,
+    "boxed_update_relative_error": 0.03288744990419343,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8748853712257877
+        ],
+        "condition": [
+          1.1430068816888734
+        ]
+      }
+    },
+    "full_backward_residual": 6.638683808182016e-16,
+    "L_forward_relative_error": 0.020601397189381046,
+    "L_gradient_cosine": 0.51816076221961,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.006186812181801407,
+    "differential_forward_relative_error": 0.011337516078017905,
+    "adjoint_relative_error": 0.014305427301226973,
+    "jvp_relative_error": 0.017059395050618643,
+    "gradient_relative_error": 0.11905417872009302,
+    "gradient_cosine": 0.9961056096881129,
+    "reduced_adjoint_dot_defect": 5.582961952152495e-16,
+    "boxed_update_relative_error": 0.11905417872009368,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5687438017679836
+        ],
+        "condition": [
+          1.7582609197523096
+        ]
+      }
+    },
+    "full_backward_residual": 6.64988412403286e-16,
+    "L_forward_relative_error": 0.23034482478356508,
+    "L_gradient_cosine": -0.1669793236952506,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.00010129682083179208,
+    "differential_forward_relative_error": 0.004191611945079158,
+    "adjoint_relative_error": 0.004619790409983657,
+    "jvp_relative_error": 0.003422204241693692,
+    "gradient_relative_error": 0.02198493001989385,
+    "gradient_cosine": 0.9999229022133264,
+    "reduced_adjoint_dot_defect": 4.679823212722569e-15,
+    "boxed_update_relative_error": 0.021984930019898822,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9153406444070689
+        ],
+        "condition": [
+          1.0924894530907354
+        ]
+      }
+    },
+    "full_backward_residual": 8.978554104035737e-16,
+    "L_forward_relative_error": 0.0016265993563306606,
+    "L_gradient_cosine": 0.9702768879169102,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.0017930152676649328,
+    "differential_forward_relative_error": 0.017877951373537745,
+    "adjoint_relative_error": 0.015645854737376882,
+    "jvp_relative_error": 0.016389659148117887,
+    "gradient_relative_error": 0.07548562831902102,
+    "gradient_cosine": 0.9989775747597915,
+    "reduced_adjoint_dot_defect": 9.366723984359135e-16,
+    "boxed_update_relative_error": 0.07548562831902153,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.7020682568908215
+        ],
+        "condition": [
+          1.4243629307905168
+        ]
+      }
+    },
+    "full_backward_residual": 8.997084863677859e-16,
+    "L_forward_relative_error": 0.026145820236297843,
+    "L_gradient_cosine": 0.7405655332727059,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.000512567473671153,
+    "differential_forward_relative_error": 0.002578116432101361,
+    "adjoint_relative_error": 0.0025710174057680737,
+    "jvp_relative_error": 0.0027029481459974066,
+    "gradient_relative_error": 0.031157330839550048,
+    "gradient_cosine": 0.9995839909864224,
+    "reduced_adjoint_dot_defect": 2.534108046581532e-16,
+    "boxed_update_relative_error": 0.0311573308395491,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8822137710581065
+        ],
+        "condition": [
+          1.1335121178176844
+        ]
+      }
+    },
+    "full_backward_residual": 6.754578655103771e-16,
+    "L_forward_relative_error": 0.01974953707391611,
+    "L_gradient_cosine": 0.37310186037938553,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.006913183394997776,
+    "differential_forward_relative_error": 0.012905800232981157,
+    "adjoint_relative_error": 0.017260120158844674,
+    "jvp_relative_error": 0.01601833757039866,
+    "gradient_relative_error": 0.21863460032333137,
+    "gradient_cosine": 0.9853145418351754,
+    "reduced_adjoint_dot_defect": 2.536885523100334e-15,
+    "boxed_update_relative_error": 0.21863460032333215,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5897546152105834
+        ],
+        "condition": [
+          1.6956204736828224
+        ]
+      }
+    },
+    "full_backward_residual": 6.391912932996657e-16,
+    "L_forward_relative_error": 0.2299567200456635,
+    "L_gradient_cosine": -0.393012724527204,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.00014474639271799187,
+    "differential_forward_relative_error": 0.004844483101982244,
+    "adjoint_relative_error": 0.0052869900902600365,
+    "jvp_relative_error": 0.00558446427706265,
+    "gradient_relative_error": 0.05460645083528688,
+    "gradient_cosine": 0.9986891806076439,
+    "reduced_adjoint_dot_defect": 2.9679462256091825e-16,
+    "boxed_update_relative_error": 0.05460645083528609,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9038976588667018
+        ],
+        "condition": [
+          1.1063199358805624
+        ]
+      }
+    },
+    "full_backward_residual": 9.125903863090116e-16,
+    "L_forward_relative_error": 0.0017432419406422039,
+    "L_gradient_cosine": 0.9069285720340586,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.0023099456067945993,
+    "differential_forward_relative_error": 0.02191846443233649,
+    "adjoint_relative_error": 0.012676223522857046,
+    "jvp_relative_error": 0.017229531292182878,
+    "gradient_relative_error": 0.0886172015688849,
+    "gradient_cosine": 0.9987996168306699,
+    "reduced_adjoint_dot_defect": 1.6570897018897362e-16,
+    "boxed_update_relative_error": 0.08861720156888545,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6974825035470154
+        ],
+        "condition": [
+          1.4337277206446697
+        ]
+      }
+    },
+    "full_backward_residual": 8.806096091104519e-16,
+    "L_forward_relative_error": 0.022731011585310438,
+    "L_gradient_cosine": 0.7692621449901113,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.0007431504007160399,
+    "differential_forward_relative_error": 0.003679073344401175,
+    "adjoint_relative_error": 0.0055118308704863945,
+    "jvp_relative_error": 0.0051480452080912755,
+    "gradient_relative_error": 0.052159617246750486,
+    "gradient_cosine": 0.9986434803368124,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.05215961724674896,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8828898813680321
+        ],
+        "condition": [
+          1.1326440829183664
+        ]
+      }
+    },
+    "full_backward_residual": 6.402362143118298e-16,
+    "L_forward_relative_error": 0.020147050613567356,
+    "L_gradient_cosine": 0.22503500899452006,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N1",
+    "forward_relative_error": 0.009681815530237262,
+    "differential_forward_relative_error": 0.018412916367495855,
+    "adjoint_relative_error": 0.018236178215120552,
+    "jvp_relative_error": 0.013880085768474767,
+    "gradient_relative_error": 0.20401028780273894,
+    "gradient_cosine": 0.9849425952983902,
+    "reduced_adjoint_dot_defect": 1.0118460473642528e-15,
+    "boxed_update_relative_error": 0.20401028780273925,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6069417253877449
+        ],
+        "condition": [
+          1.6476046351256368
+        ]
+      }
+    },
+    "full_backward_residual": 6.284297785816052e-16,
+    "L_forward_relative_error": 0.21580155629394737,
+    "L_gradient_cosine": -0.2434594653699422,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.00011316157159931554,
+    "differential_forward_relative_error": 0.004518129489895133,
+    "adjoint_relative_error": 0.00359398211585496,
+    "jvp_relative_error": 0.0035827930242569275,
+    "gradient_relative_error": 0.03338924298167123,
+    "gradient_cosine": 0.9994470502756463,
+    "reduced_adjoint_dot_defect": 5.343502933902957e-16,
+    "boxed_update_relative_error": 0.033389242981659614,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9161754957560462
+        ],
+        "condition": [
+          1.0914939382599185
+        ]
+      }
+    },
+    "full_backward_residual": 9.086705261927653e-16,
+    "L_forward_relative_error": 0.001390970199888829,
+    "L_gradient_cosine": 0.9494978362363271,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0017715837979957899,
+    "differential_forward_relative_error": 0.017780920923318552,
+    "adjoint_relative_error": 0.01727965078460552,
+    "jvp_relative_error": 0.023033595720557784,
+    "gradient_relative_error": 0.32703852002606,
+    "gradient_cosine": 0.9501085102700629,
+    "reduced_adjoint_dot_defect": 2.912450706289473e-16,
+    "boxed_update_relative_error": 0.32703852002606126,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.700239462580688
+        ],
+        "condition": [
+          1.4280828965487942
+        ]
+      }
+    },
+    "full_backward_residual": 8.903642369794908e-16,
+    "L_forward_relative_error": 0.02248121815710843,
+    "L_gradient_cosine": -0.07631026322676167,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.000752050020770329,
+    "differential_forward_relative_error": 0.003959760496148955,
+    "adjoint_relative_error": 0.003894808225670757,
+    "jvp_relative_error": 0.004495707254028343,
+    "gradient_relative_error": 0.07269606632892563,
+    "gradient_cosine": 0.9974214443946668,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.07269606632892649,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8894878267334746
+        ],
+        "condition": [
+          1.1242424797114612
+        ]
+      }
+    },
+    "full_backward_residual": 6.793583459175771e-16,
+    "L_forward_relative_error": 0.018069574138659866,
+    "L_gradient_cosine": 0.2421948149968781,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.008299625508866443,
+    "differential_forward_relative_error": 0.01601438773909804,
+    "adjoint_relative_error": 0.021901346523567032,
+    "jvp_relative_error": 0.014392614319853678,
+    "gradient_relative_error": 0.2232393471224248,
+    "gradient_cosine": 0.9843774072458722,
+    "reduced_adjoint_dot_defect": 1.8130718895340783e-16,
+    "boxed_update_relative_error": 0.2232393471224249,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.614995989887364
+        ],
+        "condition": [
+          1.626026862684339
+        ]
+      }
+    },
+    "full_backward_residual": 6.127244133905937e-16,
+    "L_forward_relative_error": 0.20705163785957242,
+    "L_gradient_cosine": 0.3495585478929295,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.00010701423429301888,
+    "differential_forward_relative_error": 0.0038116901479780824,
+    "adjoint_relative_error": 0.0039850752813185755,
+    "jvp_relative_error": 0.003522890305293332,
+    "gradient_relative_error": 0.030556571718328228,
+    "gradient_cosine": 0.9995550050115576,
+    "reduced_adjoint_dot_defect": 3.80758827881686e-16,
+    "boxed_update_relative_error": 0.030556571718325664,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9082020275466839
+        ],
+        "condition": [
+          1.1010765993347196
+        ]
+      }
+    },
+    "full_backward_residual": 8.846985684174054e-16,
+    "L_forward_relative_error": 0.0017251174908139678,
+    "L_gradient_cosine": 0.9275490607641009,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0025690142484886625,
+    "differential_forward_relative_error": 0.021070100204805736,
+    "adjoint_relative_error": 0.026201085202826564,
+    "jvp_relative_error": 0.021123112104790582,
+    "gradient_relative_error": 0.16443798557319583,
+    "gradient_cosine": 0.992182482200048,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.1644379855731969,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6574928276498487
+        ],
+        "condition": [
+          1.5209291386103991
+        ]
+      }
+    },
+    "full_backward_residual": 9.005490337955334e-16,
+    "L_forward_relative_error": 0.032684196162459045,
+    "L_gradient_cosine": 0.4435802618725381,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0007940413333280927,
+    "differential_forward_relative_error": 0.0036850444832575353,
+    "adjoint_relative_error": 0.004164298615626045,
+    "jvp_relative_error": 0.004450128357787422,
+    "gradient_relative_error": 0.037029611969227064,
+    "gradient_cosine": 0.9993887951456315,
+    "reduced_adjoint_dot_defect": 2.791944921745925e-16,
+    "boxed_update_relative_error": 0.037029611969226627,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.866825117762682
+        ],
+        "condition": [
+          1.1536352368065301
+        ]
+      }
+    },
+    "full_backward_residual": 6.504979490628993e-16,
+    "L_forward_relative_error": 0.02252195819250532,
+    "L_gradient_cosine": 0.6372736023168017,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.006999793998363449,
+    "differential_forward_relative_error": 0.012568376436584289,
+    "adjoint_relative_error": 0.014877580095870204,
+    "jvp_relative_error": 0.018000270569323767,
+    "gradient_relative_error": 0.16436666369093048,
+    "gradient_cosine": 0.9901508882470188,
+    "reduced_adjoint_dot_defect": 3.5593125288875274e-16,
+    "boxed_update_relative_error": 0.16436666369093011,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5498338357498864
+        ],
+        "condition": [
+          1.8187312874918986
+        ]
+      }
+    },
+    "full_backward_residual": 6.330887535952278e-16,
+    "L_forward_relative_error": 0.24833588228261919,
+    "L_gradient_cosine": 0.19605051576730192,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 9.021242745324494e-05,
+    "differential_forward_relative_error": 0.00359674558547455,
+    "adjoint_relative_error": 0.004446169933789335,
+    "jvp_relative_error": 0.0033594380412662445,
+    "gradient_relative_error": 0.02221787029512028,
+    "gradient_cosine": 0.9998465092090001,
+    "reduced_adjoint_dot_defect": 2.2695183711682913e-15,
+    "boxed_update_relative_error": 0.022217870295124,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9120197861391951
+        ],
+        "condition": [
+          1.0964674398493555
+        ]
+      }
+    },
+    "full_backward_residual": 8.830390470649043e-16,
+    "L_forward_relative_error": 0.0017111162047181653,
+    "L_gradient_cosine": 0.9488016646921777,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0019535571429754174,
+    "differential_forward_relative_error": 0.017568454974053956,
+    "adjoint_relative_error": 0.01716748985075775,
+    "jvp_relative_error": 0.017903970463930868,
+    "gradient_relative_error": 0.13138945245351438,
+    "gradient_cosine": 0.9954811003813029,
+    "reduced_adjoint_dot_defect": 3.966443534137133e-16,
+    "boxed_update_relative_error": 0.13138945245351558,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6736079493045644
+        ],
+        "condition": [
+          1.4845430506460089
+        ]
+      }
+    },
+    "full_backward_residual": 9.006208266755324e-16,
+    "L_forward_relative_error": 0.03214889983674724,
+    "L_gradient_cosine": 0.4840605357203603,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0006047797197475275,
+    "differential_forward_relative_error": 0.0028612435929890605,
+    "adjoint_relative_error": 0.002750090189415135,
+    "jvp_relative_error": 0.0030017261499078094,
+    "gradient_relative_error": 0.04855489027460317,
+    "gradient_cosine": 0.9988213929739074,
+    "reduced_adjoint_dot_defect": 1.7650681563272737e-15,
+    "boxed_update_relative_error": 0.04855489027460384,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.874346413980125
+        ],
+        "condition": [
+          1.143711444355202
+        ]
+      }
+    },
+    "full_backward_residual": 7.036646061629129e-16,
+    "L_forward_relative_error": 0.022811357063158712,
+    "L_gradient_cosine": 0.14544222928575629,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.007137937836818562,
+    "differential_forward_relative_error": 0.012968497696050123,
+    "adjoint_relative_error": 0.01781907566385224,
+    "jvp_relative_error": 0.016343160725611077,
+    "gradient_relative_error": 0.18474945015564934,
+    "gradient_cosine": 0.9907421352781438,
+    "reduced_adjoint_dot_defect": 5.903392532288119e-15,
+    "boxed_update_relative_error": 0.18474945015564773,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5696149458098814
+        ],
+        "condition": [
+          1.7555719128440266
+        ]
+      }
+    },
+    "full_backward_residual": 6.501319311735919e-16,
+    "L_forward_relative_error": 0.2502963818483621,
+    "L_gradient_cosine": 0.3172185773983118,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.00012338244495551547,
+    "differential_forward_relative_error": 0.004095333316870933,
+    "adjoint_relative_error": 0.005010021608463949,
+    "jvp_relative_error": 0.00520809682518632,
+    "gradient_relative_error": 0.03443182739768216,
+    "gradient_cosine": 0.9994393544901987,
+    "reduced_adjoint_dot_defect": 6.01200449918615e-16,
+    "boxed_update_relative_error": 0.03443182739768057,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9040856250479393
+        ],
+        "condition": [
+          1.106089923669536
+        ]
+      }
+    },
+    "full_backward_residual": 9.006609523698673e-16,
+    "L_forward_relative_error": 0.0016984233054020692,
+    "L_gradient_cosine": 0.9280823213499743,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0023069250489820953,
+    "differential_forward_relative_error": 0.019423511741038568,
+    "adjoint_relative_error": 0.013677077154041343,
+    "jvp_relative_error": 0.01881596558329875,
+    "gradient_relative_error": 0.21883439349419637,
+    "gradient_cosine": 0.978370345939671,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.21883439349419534,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6724775953613703
+        ],
+        "condition": [
+          1.4870383889334313
+        ]
+      }
+    },
+    "full_backward_residual": 9.144044007869706e-16,
+    "L_forward_relative_error": 0.026783701089160627,
+    "L_gradient_cosine": 0.10534125247297708,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.0008052852721701481,
+    "differential_forward_relative_error": 0.0037945436246565475,
+    "adjoint_relative_error": 0.005879050584391781,
+    "jvp_relative_error": 0.005455939161077359,
+    "gradient_relative_error": 0.067561387482766,
+    "gradient_cosine": 0.9979283964555898,
+    "reduced_adjoint_dot_defect": 7.757384540314363e-16,
+    "boxed_update_relative_error": 0.06756138748276413,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8762177509246858
+        ],
+        "condition": [
+          1.1412688215283073
+        ]
+      }
+    },
+    "full_backward_residual": 6.700943379459557e-16,
+    "L_forward_relative_error": 0.022717451155381718,
+    "L_gradient_cosine": 0.10529781127440956,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N2",
+    "forward_relative_error": 0.009463477319523898,
+    "differential_forward_relative_error": 0.017569154839051786,
+    "adjoint_relative_error": 0.018131035033699026,
+    "jvp_relative_error": 0.014132054180294368,
+    "gradient_relative_error": 0.26041929657369695,
+    "gradient_cosine": 0.9728706319838621,
+    "reduced_adjoint_dot_defect": 2.2012171247930017e-15,
+    "boxed_update_relative_error": 0.26041929657369683,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.589408604863557
+        ],
+        "condition": [
+          1.696615882001742
+        ]
+      }
+    },
+    "full_backward_residual": 6.415994154720962e-16,
+    "L_forward_relative_error": 0.2331385630538427,
+    "L_gradient_cosine": 0.2054291696116027,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0001072311242443403,
+    "differential_forward_relative_error": 0.004321558848932937,
+    "adjoint_relative_error": 0.003456924498221871,
+    "jvp_relative_error": 0.003404555353247317,
+    "gradient_relative_error": 0.041895609297527704,
+    "gradient_cosine": 0.9991479227120682,
+    "reduced_adjoint_dot_defect": 1.7695044342153108e-15,
+    "boxed_update_relative_error": 0.04189560929752112,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9159680545930333
+        ],
+        "condition": [
+          1.0917411311296246
+        ]
+      }
+    },
+    "full_backward_residual": 8.874834778860338e-16,
+    "L_forward_relative_error": 0.001361541372530211,
+    "L_gradient_cosine": 0.9348394358127851,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0018090001895175979,
+    "differential_forward_relative_error": 0.017585830844436826,
+    "adjoint_relative_error": 0.0171609170331034,
+    "jvp_relative_error": 0.023603662775644362,
+    "gradient_relative_error": 0.2171452488149882,
+    "gradient_cosine": 0.978692725986124,
+    "reduced_adjoint_dot_defect": 2.908573254784116e-16,
+    "boxed_update_relative_error": 0.2171452488149865,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6961387437005813
+        ],
+        "condition": [
+          1.4364952519150602
+        ]
+      }
+    },
+    "full_backward_residual": 9.000264378501495e-16,
+    "L_forward_relative_error": 0.02320912837548796,
+    "L_gradient_cosine": 0.3088808515170658,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0007593396741455281,
+    "differential_forward_relative_error": 0.003977710516454418,
+    "adjoint_relative_error": 0.003959349320973836,
+    "jvp_relative_error": 0.004787335538795626,
+    "gradient_relative_error": 0.08170930492314007,
+    "gradient_cosine": 0.9967170682008313,
+    "reduced_adjoint_dot_defect": 5.856363716265011e-15,
+    "boxed_update_relative_error": 0.08170930492313938,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8869407028755649
+        ],
+        "condition": [
+          1.1274710888313995
+        ]
+      }
+    },
+    "full_backward_residual": 6.749257864194975e-16,
+    "L_forward_relative_error": 0.018309387011679192,
+    "L_gradient_cosine": 0.4626545208093595,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.009225040607671885,
+    "differential_forward_relative_error": 0.017037017128081478,
+    "adjoint_relative_error": 0.023962913066340474,
+    "jvp_relative_error": 0.015239695865785918,
+    "gradient_relative_error": 0.12867731224444715,
+    "gradient_cosine": 0.9981889068508638,
+    "reduced_adjoint_dot_defect": 1.0923252615928612e-15,
+    "boxed_update_relative_error": 0.12867731224444628,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5900739609268325
+        ],
+        "condition": [
+          1.6947028105244542
+        ]
+      }
+    },
+    "full_backward_residual": 6.244412581264886e-16,
+    "L_forward_relative_error": 0.23583070565608455,
+    "L_gradient_cosine": 0.6643787180890536,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.00012278986330287593,
+    "differential_forward_relative_error": 0.004351955633271924,
+    "adjoint_relative_error": 0.0042044999561196734,
+    "jvp_relative_error": 0.003403322537922763,
+    "gradient_relative_error": 0.038501182385839126,
+    "gradient_cosine": 0.9992746880162389,
+    "reduced_adjoint_dot_defect": 1.2690862398265204e-16,
+    "boxed_update_relative_error": 0.03850118238583965,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9104382963710019
+        ],
+        "condition": [
+          1.0983720741822813
+        ]
+      }
+    },
+    "full_backward_residual": 9.275766242449814e-16,
+    "L_forward_relative_error": 0.0016589048662168063,
+    "L_gradient_cosine": 0.9430308337135959,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0022844789505615977,
+    "differential_forward_relative_error": 0.017889046968856508,
+    "adjoint_relative_error": 0.02401444066025398,
+    "jvp_relative_error": 0.02045563805574274,
+    "gradient_relative_error": 0.19097915478641972,
+    "gradient_cosine": 0.9832462008643064,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.1909791547864174,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6439424598778939
+        ],
+        "condition": [
+          1.5529337826078788
+        ]
+      }
+    },
+    "full_backward_residual": 8.760318007756823e-16,
+    "L_forward_relative_error": 0.03581043519221643,
+    "L_gradient_cosine": 0.563930193286492,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0007275187787560914,
+    "differential_forward_relative_error": 0.003400390371341988,
+    "adjoint_relative_error": 0.004174795221198224,
+    "jvp_relative_error": 0.004437614102435931,
+    "gradient_relative_error": 0.04209475157623277,
+    "gradient_cosine": 0.9991136324103367,
+    "reduced_adjoint_dot_defect": 2.769539288680192e-16,
+    "boxed_update_relative_error": 0.04209475157623292,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8691696831390954
+        ],
+        "condition": [
+          1.1505233320936799
+        ]
+      }
+    },
+    "full_backward_residual": 6.584120271604615e-16,
+    "L_forward_relative_error": 0.02249228112909345,
+    "L_gradient_cosine": 0.6445285096951969,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.00826852751629398,
+    "differential_forward_relative_error": 0.013817299905862702,
+    "adjoint_relative_error": 0.017422290685581137,
+    "jvp_relative_error": 0.020162258093641538,
+    "gradient_relative_error": 0.10678712017540971,
+    "gradient_cosine": 0.9979559095128632,
+    "reduced_adjoint_dot_defect": 5.068566386344191e-16,
+    "boxed_update_relative_error": 0.10678712017540967,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5030013098124733
+        ],
+        "condition": [
+          1.988066393649781
+        ]
+      }
+    },
+    "full_backward_residual": 6.547347540306399e-16,
+    "L_forward_relative_error": 0.3134891357393204,
+    "L_gradient_cosine": 0.6910335504445858,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 9.150213751023479e-05,
+    "differential_forward_relative_error": 0.003659618461352912,
+    "adjoint_relative_error": 0.004542553719252818,
+    "jvp_relative_error": 0.0034502570842752014,
+    "gradient_relative_error": 0.02537220408892295,
+    "gradient_cosine": 0.9998897019854095,
+    "reduced_adjoint_dot_defect": 8.480008452089937e-16,
+    "boxed_update_relative_error": 0.025372204088913948,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9119309097689141
+        ],
+        "condition": [
+          1.0965743010656397
+        ]
+      }
+    },
+    "full_backward_residual": 8.965822151674415e-16,
+    "L_forward_relative_error": 0.0016934185780856823,
+    "L_gradient_cosine": 0.9567168025344321,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.002118481668897294,
+    "differential_forward_relative_error": 0.018622223673477687,
+    "adjoint_relative_error": 0.017258311086211082,
+    "jvp_relative_error": 0.01861385529521185,
+    "gradient_relative_error": 0.19719237197958325,
+    "gradient_cosine": 0.9888215399642144,
+    "reduced_adjoint_dot_defect": 1.3347563449598698e-16,
+    "boxed_update_relative_error": 0.19719237197958273,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6711856329454182
+        ],
+        "condition": [
+          1.48990078290505
+        ]
+      }
+    },
+    "full_backward_residual": 8.966371905670177e-16,
+    "L_forward_relative_error": 0.0327495006909692,
+    "L_gradient_cosine": 0.5890066079280725,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0005452665621269035,
+    "differential_forward_relative_error": 0.0026103704989139716,
+    "adjoint_relative_error": 0.0026716893222965194,
+    "jvp_relative_error": 0.002798413013895934,
+    "gradient_relative_error": 0.04502757039650482,
+    "gradient_cosine": 0.999347283043224,
+    "reduced_adjoint_dot_defect": 3.770776828037611e-16,
+    "boxed_update_relative_error": 0.045027570396505116,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8743832985331271
+        ],
+        "condition": [
+          1.1436631985967807
+        ]
+      }
+    },
+    "full_backward_residual": 6.740917120117712e-16,
+    "L_forward_relative_error": 0.022270428504319054,
+    "L_gradient_cosine": 0.308091572058109,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.00744682167617631,
+    "differential_forward_relative_error": 0.013015612613379147,
+    "adjoint_relative_error": 0.01938908157404943,
+    "jvp_relative_error": 0.017952907378214724,
+    "gradient_relative_error": 0.1034201637366131,
+    "gradient_cosine": 0.9990034375599949,
+    "reduced_adjoint_dot_defect": 2.4495576481440786e-16,
+    "boxed_update_relative_error": 0.10342016373661246,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5428865876665964
+        ],
+        "condition": [
+          1.8420053519799449
+        ]
+      }
+    },
+    "full_backward_residual": 6.409744000217302e-16,
+    "L_forward_relative_error": 0.2848882577121928,
+    "L_gradient_cosine": 0.6485397573966745,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.00014681362009072947,
+    "differential_forward_relative_error": 0.004604950824143433,
+    "adjoint_relative_error": 0.0057114322850749955,
+    "jvp_relative_error": 0.005916390231988922,
+    "gradient_relative_error": 0.05178100335663141,
+    "gradient_cosine": 0.9991094812017742,
+    "reduced_adjoint_dot_defect": 7.401731994447187e-16,
+    "boxed_update_relative_error": 0.05178100335663195,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8991229616185317
+        ],
+        "condition": [
+          1.1121949307132333
+        ]
+      }
+    },
+    "full_backward_residual": 9.141816456019181e-16,
+    "L_forward_relative_error": 0.0018522187690762563,
+    "L_gradient_cosine": 0.9085230941805965,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.00262644386196775,
+    "differential_forward_relative_error": 0.02172842858719139,
+    "adjoint_relative_error": 0.013483027231013316,
+    "jvp_relative_error": 0.01870738440575626,
+    "gradient_relative_error": 0.25578440396051605,
+    "gradient_cosine": 0.9678835423116696,
+    "reduced_adjoint_dot_defect": 3.2551748655270473e-16,
+    "boxed_update_relative_error": 0.25578440396051455,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6699611956691885
+        ],
+        "condition": [
+          1.4926237615913758
+        ]
+      }
+    },
+    "full_backward_residual": 9.02794693430396e-16,
+    "L_forward_relative_error": 0.02783689082494853,
+    "L_gradient_cosine": 0.44435235955912217,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.0006919415872503184,
+    "differential_forward_relative_error": 0.0033409660379591093,
+    "adjoint_relative_error": 0.005379658881657153,
+    "jvp_relative_error": 0.005044041351020543,
+    "gradient_relative_error": 0.06589046610748046,
+    "gradient_cosine": 0.9982381363836871,
+    "reduced_adjoint_dot_defect": 1.406529147920031e-15,
+    "boxed_update_relative_error": 0.0658904661074811,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8774173410609157
+        ],
+        "condition": [
+          1.1397084981143242
+        ]
+      }
+    },
+    "full_backward_residual": 6.60540754565532e-16,
+    "L_forward_relative_error": 0.021562863194233426,
+    "L_gradient_cosine": 0.09622712550763315,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "MIDDLE",
+    "method": "N3",
+    "forward_relative_error": 0.009654162351051385,
+    "differential_forward_relative_error": 0.017136291389497106,
+    "adjoint_relative_error": 0.018398364339431372,
+    "jvp_relative_error": 0.015856233933288017,
+    "gradient_relative_error": 0.137982974588597,
+    "gradient_cosine": 0.9968014256747524,
+    "reduced_adjoint_dot_defect": 1.126038942249627e-15,
+    "boxed_update_relative_error": 0.13798297458859637,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5590848276432926
+        ],
+        "condition": [
+          1.788637341877609
+        ]
+      }
+    },
+    "full_backward_residual": 6.59865795265269e-16,
+    "L_forward_relative_error": 0.2681860906227548,
+    "L_gradient_cosine": 0.6290578620364432,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.000122479582969737,
+    "differential_forward_relative_error": 0.004470156423211758,
+    "adjoint_relative_error": 0.003640740061428313,
+    "jvp_relative_error": 0.003530782891573027,
+    "gradient_relative_error": 0.025974922076777335,
+    "gradient_cosine": 0.9998147605774687,
+    "reduced_adjoint_dot_defect": 6.917702956563539e-16,
+    "boxed_update_relative_error": 0.02597492207678089,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9090646378146702
+        ],
+        "condition": [
+          1.1000317891629052
+        ]
+      }
+    },
+    "full_backward_residual": 8.998926742584104e-16,
+    "L_forward_relative_error": 0.001672472777734621,
+    "L_gradient_cosine": 0.9724012523407193,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0022557213235078226,
+    "differential_forward_relative_error": 0.02280513358663037,
+    "adjoint_relative_error": 0.018723415914699126,
+    "jvp_relative_error": 0.02445653654739657,
+    "gradient_relative_error": 0.29196676097097285,
+    "gradient_cosine": 0.9659070102874129,
+    "reduced_adjoint_dot_defect": 1.462310681348716e-16,
+    "boxed_update_relative_error": 0.29196676097096974,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.7070531375719616
+        ],
+        "condition": [
+          1.414320857742072
+        ]
+      }
+    },
+    "full_backward_residual": 9.204565738355228e-16,
+    "L_forward_relative_error": 0.021977610395753248,
+    "L_gradient_cosine": 0.7666227033143165,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0005699701635351416,
+    "differential_forward_relative_error": 0.003092583772154247,
+    "adjoint_relative_error": 0.003452081629497194,
+    "jvp_relative_error": 0.004394421977018331,
+    "gradient_relative_error": 0.040792448473700844,
+    "gradient_cosine": 0.9991712869918135,
+    "reduced_adjoint_dot_defect": 5.521111207768891e-16,
+    "boxed_update_relative_error": 0.040792448473699346,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8903602957422495
+        ],
+        "condition": [
+          1.1231408282490285
+        ]
+      }
+    },
+    "full_backward_residual": 6.53073308401369e-16,
+    "L_forward_relative_error": 0.016907175547174476,
+    "L_gradient_cosine": 0.3186710286429371,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.008142998052736532,
+    "differential_forward_relative_error": 0.016626375974274306,
+    "adjoint_relative_error": 0.02121228465093023,
+    "jvp_relative_error": 0.011312355655031315,
+    "gradient_relative_error": 0.2549828115391147,
+    "gradient_cosine": 0.972863349083239,
+    "reduced_adjoint_dot_defect": 6.679495354503162e-16,
+    "boxed_update_relative_error": 0.2549828115391159,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6455838563630801
+        ],
+        "condition": [
+          1.5489854495952484
+        ]
+      }
+    },
+    "full_backward_residual": 6.266445899075029e-16,
+    "L_forward_relative_error": 0.17412323530122903,
+    "L_gradient_cosine": 0.12367832707513295,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.00017918781743663415,
+    "differential_forward_relative_error": 0.005324139768072767,
+    "adjoint_relative_error": 0.005069585310126136,
+    "jvp_relative_error": 0.004080172976912468,
+    "gradient_relative_error": 0.03106541083483714,
+    "gradient_cosine": 0.9998732462164126,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.03106541083483438,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8987055093621488
+        ],
+        "condition": [
+          1.1127115496484987
+        ]
+      }
+    },
+    "full_backward_residual": 9.04131283628474e-16,
+    "L_forward_relative_error": 0.002248567568370798,
+    "L_gradient_cosine": 0.9752901882973848,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0028069311194349276,
+    "differential_forward_relative_error": 0.02425716067768902,
+    "adjoint_relative_error": 0.0242854574309304,
+    "jvp_relative_error": 0.023290127622234546,
+    "gradient_relative_error": 0.1152839916207946,
+    "gradient_cosine": 0.9981884511947579,
+    "reduced_adjoint_dot_defect": 2.3972491769115104e-15,
+    "boxed_update_relative_error": 0.11528399162079474,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6684429296734623
+        ],
+        "condition": [
+          1.4960140284354642
+        ]
+      }
+    },
+    "full_backward_residual": 9.179247390146083e-16,
+    "L_forward_relative_error": 0.03178485872370972,
+    "L_gradient_cosine": 0.8499782335502056,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0006327528714045836,
+    "differential_forward_relative_error": 0.0028947766994299427,
+    "adjoint_relative_error": 0.0037196646713500876,
+    "jvp_relative_error": 0.0042385907055234725,
+    "gradient_relative_error": 0.04842016180410524,
+    "gradient_cosine": 0.9990068149550665,
+    "reduced_adjoint_dot_defect": 4.177427121906583e-16,
+    "boxed_update_relative_error": 0.04842016180410474,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.864794415531379
+        ],
+        "condition": [
+          1.1563441923772633
+        ]
+      }
+    },
+    "full_backward_residual": 6.63575266706971e-16,
+    "L_forward_relative_error": 0.023830439203004955,
+    "L_gradient_cosine": 0.1373727354606712,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.006818507531009366,
+    "differential_forward_relative_error": 0.012690226717805538,
+    "adjoint_relative_error": 0.013884678367126304,
+    "jvp_relative_error": 0.016685395774816293,
+    "gradient_relative_error": 0.13749966739915426,
+    "gradient_cosine": 0.9962988120489334,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.13749966739915523,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5749981942165959
+        ],
+        "condition": [
+          1.7391358965265034
+        ]
+      }
+    },
+    "full_backward_residual": 6.673780594514562e-16,
+    "L_forward_relative_error": 0.22138538176350986,
+    "L_gradient_cosine": 0.3596627386786446,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0001228847344077976,
+    "differential_forward_relative_error": 0.00401909853937677,
+    "adjoint_relative_error": 0.005037000568592815,
+    "jvp_relative_error": 0.003864859145711802,
+    "gradient_relative_error": 0.02237059892168855,
+    "gradient_cosine": 0.9999001644555455,
+    "reduced_adjoint_dot_defect": 2.093343315883473e-15,
+    "boxed_update_relative_error": 0.022370598921686264,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9012220834430601
+        ],
+        "condition": [
+          1.1096044120219128
+        ]
+      }
+    },
+    "full_backward_residual": 8.739840126762172e-16,
+    "L_forward_relative_error": 0.002285426390193802,
+    "L_gradient_cosine": 0.975760168074942,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0021803886839889485,
+    "differential_forward_relative_error": 0.019938549947040834,
+    "adjoint_relative_error": 0.01700488845014723,
+    "jvp_relative_error": 0.016878019694643722,
+    "gradient_relative_error": 0.13360388388231537,
+    "gradient_cosine": 0.997662235680442,
+    "reduced_adjoint_dot_defect": 1.0652264912642699e-15,
+    "boxed_update_relative_error": 0.13360388388231775,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6788068993267984
+        ],
+        "condition": [
+          1.4731730054478562
+        ]
+      }
+    },
+    "full_backward_residual": 9.01489122729014e-16,
+    "L_forward_relative_error": 0.03178942550751811,
+    "L_gradient_cosine": 0.8269368944380848,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0005324338793628288,
+    "differential_forward_relative_error": 0.00247941474700219,
+    "adjoint_relative_error": 0.002747737582365023,
+    "jvp_relative_error": 0.0028085193736373036,
+    "gradient_relative_error": 0.03460859160775509,
+    "gradient_cosine": 0.9994728168794602,
+    "reduced_adjoint_dot_defect": 2.5040540680146944e-16,
+    "boxed_update_relative_error": 0.034608591607754355,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8678662087985581
+        ],
+        "condition": [
+          1.1522513376622452
+        ]
+      }
+    },
+    "full_backward_residual": 6.635908263369125e-16,
+    "L_forward_relative_error": 0.023691464660310343,
+    "L_gradient_cosine": 0.23260354465318173,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0058977243428492716,
+    "differential_forward_relative_error": 0.011313782976677475,
+    "adjoint_relative_error": 0.015954033360565036,
+    "jvp_relative_error": 0.014449048596759622,
+    "gradient_relative_error": 0.1872143487497975,
+    "gradient_cosine": 0.9894845648861476,
+    "reduced_adjoint_dot_defect": 1.8414932942383284e-15,
+    "boxed_update_relative_error": 0.18721434874979775,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6014053907573236
+        ],
+        "condition": [
+          1.662771926172367
+        ]
+      }
+    },
+    "full_backward_residual": 7.080559028638431e-16,
+    "L_forward_relative_error": 0.21002142891163333,
+    "L_gradient_cosine": 0.13782731591628133,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.00019710322421268587,
+    "differential_forward_relative_error": 0.005429839479416175,
+    "adjoint_relative_error": 0.0060568278269641194,
+    "jvp_relative_error": 0.00649790209748886,
+    "gradient_relative_error": 0.028352992645994574,
+    "gradient_cosine": 0.9998903798076111,
+    "reduced_adjoint_dot_defect": 1.4799971728687891e-16,
+    "boxed_update_relative_error": 0.028352992645994713,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8879469700976524
+        ],
+        "condition": [
+          1.1261933805461652
+        ]
+      }
+    },
+    "full_backward_residual": 9.069116991945626e-16,
+    "L_forward_relative_error": 0.0025434698133028092,
+    "L_gradient_cosine": 0.9807245504333864,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0029268365401776105,
+    "differential_forward_relative_error": 0.026619200270998726,
+    "adjoint_relative_error": 0.013253759523920609,
+    "jvp_relative_error": 0.01833817877001689,
+    "gradient_relative_error": 0.12583977394119367,
+    "gradient_cosine": 0.9986272454250424,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.12583977394119367,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6874605672960991
+        ],
+        "condition": [
+          1.4546288872002833
+        ]
+      }
+    },
+    "full_backward_residual": 9.033267876271873e-16,
+    "L_forward_relative_error": 0.025795800428340374,
+    "L_gradient_cosine": 0.8268262092197781,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.0007127682184057889,
+    "differential_forward_relative_error": 0.003262578890259411,
+    "adjoint_relative_error": 0.005436141889247004,
+    "jvp_relative_error": 0.005687241529691045,
+    "gradient_relative_error": 0.03377997639331821,
+    "gradient_cosine": 0.9996295163758366,
+    "reduced_adjoint_dot_defect": 9.598365865216011e-16,
+    "boxed_update_relative_error": 0.033779976393318235,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8682655279005042
+        ],
+        "condition": [
+          1.151721412248203
+        ]
+      }
+    },
+    "full_backward_residual": 6.614461674464645e-16,
+    "L_forward_relative_error": 0.024235055293705007,
+    "L_gradient_cosine": 0.6055668764516813,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N1",
+    "forward_relative_error": 0.007441302026282122,
+    "differential_forward_relative_error": 0.01458457289239532,
+    "adjoint_relative_error": 0.016104937430040912,
+    "jvp_relative_error": 0.013829673415602105,
+    "gradient_relative_error": 0.19140638891115277,
+    "gradient_cosine": 0.9880652505544285,
+    "reduced_adjoint_dot_defect": 2.039606402065484e-15,
+    "boxed_update_relative_error": 0.19140638891115286,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6221792487165796
+        ],
+        "condition": [
+          1.607253861427848
+        ]
+      }
+    },
+    "full_backward_residual": 6.613356832334218e-16,
+    "L_forward_relative_error": 0.19616660897729088,
+    "L_gradient_cosine": 0.14647969984967657,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.00018088233355553255,
+    "differential_forward_relative_error": 0.005803145646896201,
+    "adjoint_relative_error": 0.004497558358027731,
+    "jvp_relative_error": 0.004432347522979705,
+    "gradient_relative_error": 0.03030014526132686,
+    "gradient_cosine": 0.9998636236411377,
+    "reduced_adjoint_dot_defect": 1.777345492113442e-16,
+    "boxed_update_relative_error": 0.030300145261327866,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8947920770587491
+        ],
+        "condition": [
+          1.1175780671718478
+        ]
+      }
+    },
+    "full_backward_residual": 8.961690237868782e-16,
+    "L_forward_relative_error": 0.002188942037834384,
+    "L_gradient_cosine": 0.9837366619008884,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.002250490341667245,
+    "differential_forward_relative_error": 0.022968227297205848,
+    "adjoint_relative_error": 0.019070857310754797,
+    "jvp_relative_error": 0.02614977047549198,
+    "gradient_relative_error": 0.2688292648591533,
+    "gradient_cosine": 0.990145932698633,
+    "reduced_adjoint_dot_defect": 1.4567534288589166e-16,
+    "boxed_update_relative_error": 0.2688292648591573,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.7026993708196015
+        ],
+        "condition": [
+          1.423083670665079
+        ]
+      }
+    },
+    "full_backward_residual": 9.14211407272504e-16,
+    "L_forward_relative_error": 0.02203038135728652,
+    "L_gradient_cosine": 0.6669008541595067,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.0008722157512692705,
+    "differential_forward_relative_error": 0.004366881269223186,
+    "adjoint_relative_error": 0.004190252482454776,
+    "jvp_relative_error": 0.004955353983433175,
+    "gradient_relative_error": 0.046600831717237695,
+    "gradient_cosine": 0.9991150396590489,
+    "reduced_adjoint_dot_defect": 7.545087591583052e-15,
+    "boxed_update_relative_error": 0.0466008317172375,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8798597540050903
+        ],
+        "condition": [
+          1.1365447680133516
+        ]
+      }
+    },
+    "full_backward_residual": 6.570874289465087e-16,
+    "L_forward_relative_error": 0.020340718734889143,
+    "L_gradient_cosine": 0.6345915533086092,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.009700966496038453,
+    "differential_forward_relative_error": 0.019106321768220726,
+    "adjoint_relative_error": 0.023924904680658655,
+    "jvp_relative_error": 0.013653083962945975,
+    "gradient_relative_error": 0.3752046222797646,
+    "gradient_cosine": 0.9473654004394054,
+    "reduced_adjoint_dot_defect": 3.4712467531207885e-16,
+    "boxed_update_relative_error": 0.3752046222797641,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6297357331899709
+        ],
+        "condition": [
+          1.5879676938998353
+        ]
+      }
+    },
+    "full_backward_residual": 6.058997358242846e-16,
+    "L_forward_relative_error": 0.1895513613013558,
+    "L_gradient_cosine": 0.4342413651844659,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.00016688090206417043,
+    "differential_forward_relative_error": 0.0046589059843777135,
+    "adjoint_relative_error": 0.005126088470112759,
+    "jvp_relative_error": 0.004238921410657612,
+    "gradient_relative_error": 0.026894113748221763,
+    "gradient_cosine": 0.999888096247182,
+    "reduced_adjoint_dot_defect": 2.5986412579340385e-16,
+    "boxed_update_relative_error": 0.02689411374822485,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8850146108290513
+        ],
+        "condition": [
+          1.1299248484307332
+        ]
+      }
+    },
+    "full_backward_residual": 8.933018633129336e-16,
+    "L_forward_relative_error": 0.0027458420300633004,
+    "L_gradient_cosine": 0.9748609499292684,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.0032899743092970222,
+    "differential_forward_relative_error": 0.026044358412276408,
+    "adjoint_relative_error": 0.027266095213738024,
+    "jvp_relative_error": 0.02502243406838744,
+    "gradient_relative_error": 0.16980684695380624,
+    "gradient_cosine": 0.9960946828948376,
+    "reduced_adjoint_dot_defect": 4.622666982433526e-16,
+    "boxed_update_relative_error": 0.16980684695380635,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6365394224555319
+        ],
+        "condition": [
+          1.570994607281938
+        ]
+      }
+    },
+    "full_backward_residual": 9.222781176040218e-16,
+    "L_forward_relative_error": 0.03790307927935625,
+    "L_gradient_cosine": 0.7616173515010392,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.0008004963530926856,
+    "differential_forward_relative_error": 0.003602416710920779,
+    "adjoint_relative_error": 0.0038293351569039197,
+    "jvp_relative_error": 0.004033889668071354,
+    "gradient_relative_error": 0.07104264303105498,
+    "gradient_cosine": 0.9975239888931224,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.07104264303105673,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8578481751475061
+        ],
+        "condition": [
+          1.1657074398136371
+        ]
+      }
+    },
+    "full_backward_residual": 6.644255741895994e-16,
+    "L_forward_relative_error": 0.02475253310357222,
+    "L_gradient_cosine": 0.3155698980768587,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.008363030689796509,
+    "differential_forward_relative_error": 0.014721851855949113,
+    "adjoint_relative_error": 0.0163121901245417,
+    "jvp_relative_error": 0.02011643082192929,
+    "gradient_relative_error": 0.15814954924589494,
+    "gradient_cosine": 0.9903742319748644,
+    "reduced_adjoint_dot_defect": 1.7827820057104208e-16,
+    "boxed_update_relative_error": 0.15814954924589453,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5410978779769455
+        ],
+        "condition": [
+          1.8480944773592456
+        ]
+      }
+    },
+    "full_backward_residual": 6.957845464396206e-16,
+    "L_forward_relative_error": 0.2580175081042885,
+    "L_gradient_cosine": 0.36844481792050054,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.00012423131851407995,
+    "differential_forward_relative_error": 0.003903077855435301,
+    "adjoint_relative_error": 0.005266385651938331,
+    "jvp_relative_error": 0.004017864573357871,
+    "gradient_relative_error": 0.02403647227769404,
+    "gradient_cosine": 0.9998607880741509,
+    "reduced_adjoint_dot_defect": 0.0,
+    "boxed_update_relative_error": 0.024036472277695786,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8914325331039508
+        ],
+        "condition": [
+          1.1217898863507028
+        ]
+      }
+    },
+    "full_backward_residual": 8.833779869674681e-16,
+    "L_forward_relative_error": 0.0026294011946122976,
+    "L_gradient_cosine": 0.973827084668838,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.0021621400955101717,
+    "differential_forward_relative_error": 0.01862520192950721,
+    "adjoint_relative_error": 0.018618800539797854,
+    "jvp_relative_error": 0.019501798808608292,
+    "gradient_relative_error": 0.1471851550159639,
+    "gradient_cosine": 0.9960333118462814,
+    "reduced_adjoint_dot_defect": 9.284321327915821e-16,
+    "boxed_update_relative_error": 0.14718515501596613,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6598658358804481
+        ],
+        "condition": [
+          1.515459576211756
+        ]
+      }
+    },
+    "full_backward_residual": 9.203171675271126e-16,
+    "L_forward_relative_error": 0.03465768832890665,
+    "L_gradient_cosine": 0.742395505260515,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.000632859125330664,
+    "differential_forward_relative_error": 0.00281366272631111,
+    "adjoint_relative_error": 0.003058958948265189,
+    "jvp_relative_error": 0.003069532867736132,
+    "gradient_relative_error": 0.03349275317168557,
+    "gradient_cosine": 0.999488858908342,
+    "reduced_adjoint_dot_defect": 3.1242453375089097e-15,
+    "boxed_update_relative_error": 0.033492753171687026,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8600315571076048
+        ],
+        "condition": [
+          1.1627480314363428
+        ]
+      }
+    },
+    "full_backward_residual": 6.793802356571692e-16,
+    "L_forward_relative_error": 0.026469538549878803,
+    "L_gradient_cosine": 0.5090094278700719,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.007101291161658216,
+    "differential_forward_relative_error": 0.013175784234179706,
+    "adjoint_relative_error": 0.01706271955185605,
+    "jvp_relative_error": 0.01652414187603151,
+    "gradient_relative_error": 0.20576279377305892,
+    "gradient_cosine": 0.9908598301808991,
+    "reduced_adjoint_dot_defect": 1.986805950809157e-15,
+    "boxed_update_relative_error": 0.20576279377305873,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5880084587053044
+        ],
+        "condition": [
+          1.7006558072341877
+        ]
+      }
+    },
+    "full_backward_residual": 6.504938862238211e-16,
+    "L_forward_relative_error": 0.2275024849845782,
+    "L_gradient_cosine": 0.34256236195155204,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.00018001729095949102,
+    "differential_forward_relative_error": 0.0049357291057665585,
+    "adjoint_relative_error": 0.00631116535670189,
+    "jvp_relative_error": 0.00665125984202586,
+    "gradient_relative_error": 0.026276207082775567,
+    "gradient_cosine": 0.9999297767500822,
+    "reduced_adjoint_dot_defect": 7.472806308692916e-16,
+    "boxed_update_relative_error": 0.026276207082772906,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8858667684588482
+        ],
+        "condition": [
+          1.1288379196565987
+        ]
+      }
+    },
+    "full_backward_residual": 8.863725476309191e-16,
+    "L_forward_relative_error": 0.00248716621627888,
+    "L_gradient_cosine": 0.9814777755427092,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.002604912746091352,
+    "differential_forward_relative_error": 0.022511497175758958,
+    "adjoint_relative_error": 0.014063103856405152,
+    "jvp_relative_error": 0.01870311055656054,
+    "gradient_relative_error": 0.14800268628388646,
+    "gradient_cosine": 0.9976313379382143,
+    "reduced_adjoint_dot_defect": 1.676584023675583e-16,
+    "boxed_update_relative_error": 0.1480026862838874,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6659455639479774
+        ],
+        "condition": [
+          1.5016242379806863
+        ]
+      }
+    },
+    "full_backward_residual": 9.291574616555614e-16,
+    "L_forward_relative_error": 0.027547587925360596,
+    "L_gradient_cosine": 0.7693274013382009,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.000580992094064609,
+    "differential_forward_relative_error": 0.002620472206967662,
+    "adjoint_relative_error": 0.004961569281733184,
+    "jvp_relative_error": 0.0047810702403986985,
+    "gradient_relative_error": 0.029910197543066938,
+    "gradient_cosine": 0.9995794036943578,
+    "reduced_adjoint_dot_defect": 1.6859442078567412e-15,
+    "boxed_update_relative_error": 0.029910197543067184,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8634930613891242
+        ],
+        "condition": [
+          1.1580868969476992
+        ]
+      }
+    },
+    "full_backward_residual": 6.838359638397142e-16,
+    "L_forward_relative_error": 0.025298208073862936,
+    "L_gradient_cosine": 0.5641218261889429,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N2",
+    "forward_relative_error": 0.007152103206676487,
+    "differential_forward_relative_error": 0.013602637779212905,
+    "adjoint_relative_error": 0.015120451539156164,
+    "jvp_relative_error": 0.015221465404580364,
+    "gradient_relative_error": 0.163283954774672,
+    "gradient_cosine": 0.9962616510437962,
+    "reduced_adjoint_dot_defect": 5.869297850787009e-16,
+    "boxed_update_relative_error": 0.16328395477467286,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6035278938583828
+        ],
+        "condition": [
+          1.656924245219143
+        ]
+      }
+    },
+    "full_backward_residual": 6.739003628357355e-16,
+    "L_forward_relative_error": 0.21246703587157215,
+    "L_gradient_cosine": 0.2726863019421917,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00015803142112160644,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.00013630743384511463,
+    "differential_forward_relative_error": 0.00508490029637576,
+    "adjoint_relative_error": 0.0037404098900535956,
+    "jvp_relative_error": 0.003739384303940506,
+    "gradient_relative_error": 0.047418708880716386,
+    "gradient_cosine": 0.9993403438858415,
+    "reduced_adjoint_dot_defect": 2.092520262954146e-15,
+    "boxed_update_relative_error": 0.047418708880723574,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9097622503758492
+        ],
+        "condition": [
+          1.0991882764830823
+        ]
+      }
+    },
+    "full_backward_residual": 9.237099068501401e-16,
+    "L_forward_relative_error": 0.0015640573911933188,
+    "L_gradient_cosine": 0.9255873455543208,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_ring_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0006642250374511204,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.002072487260399053,
+    "differential_forward_relative_error": 0.02155828045399628,
+    "adjoint_relative_error": 0.01780083466141349,
+    "jvp_relative_error": 0.025694466780730455,
+    "gradient_relative_error": 0.2524483123275455,
+    "gradient_cosine": 0.9841654773686227,
+    "reduced_adjoint_dot_defect": 2.937724540522996e-16,
+    "boxed_update_relative_error": 0.2524483123275448,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.7150661585613757
+        ],
+        "condition": [
+          1.3984719987474667
+        ]
+      }
+    },
+    "full_backward_residual": 9.029367799603517e-16,
+    "L_forward_relative_error": 0.019942106953346854,
+    "L_gradient_cosine": 0.7138292644303137,
+    "strict_A25_task_gate_pass": false,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a0_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00028082784375374714,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0008309932907021428,
+    "differential_forward_relative_error": 0.004246796206654211,
+    "adjoint_relative_error": 0.004141098180266127,
+    "jvp_relative_error": 0.005002219054363271,
+    "gradient_relative_error": 0.05485572124153541,
+    "gradient_cosine": 0.9987466339555744,
+    "reduced_adjoint_dot_defect": 5.572750010846018e-16,
+    "boxed_update_relative_error": 0.05485572124153752,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8817176246673457
+        ],
+        "condition": [
+          1.1341499500787227
+        ]
+      }
+    },
+    "full_backward_residual": 6.512961060179252e-16,
+    "L_forward_relative_error": 0.01928643000861848,
+    "L_gradient_cosine": 0.5536669596854769,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250065_weak_a1_snr20",
+    "parent_id": 250065,
+    "family": "shell",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0010486064440967538,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.008721191253973831,
+    "differential_forward_relative_error": 0.017932800233223294,
+    "adjoint_relative_error": 0.021372648212478702,
+    "jvp_relative_error": 0.011819120773769586,
+    "gradient_relative_error": 0.17436027213542832,
+    "gradient_cosine": 0.9934386494593834,
+    "reduced_adjoint_dot_defect": 3.3299131048507005e-16,
+    "boxed_update_relative_error": 0.1743602721354285,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6510100176352597
+        ],
+        "condition": [
+          1.5360746730632775
+        ]
+      }
+    },
+    "full_backward_residual": 6.576347215825046e-16,
+    "L_forward_relative_error": 0.1670017120726876,
+    "L_gradient_cosine": -0.09160274456010245,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00019195649099778157,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.00015430567198431174,
+    "differential_forward_relative_error": 0.005172539683338596,
+    "adjoint_relative_error": 0.004673669237587652,
+    "jvp_relative_error": 0.003554925281946687,
+    "gradient_relative_error": 0.043959314416786494,
+    "gradient_cosine": 0.99928048996281,
+    "reduced_adjoint_dot_defect": 5.104674549965127e-16,
+    "boxed_update_relative_error": 0.0439593144167829,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9083022664798243
+        ],
+        "condition": [
+          1.1009550861031707
+        ]
+      }
+    },
+    "full_backward_residual": 8.918123333674803e-16,
+    "L_forward_relative_error": 0.0017605756648838274,
+    "L_gradient_cosine": 0.9363402060286813,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_ring_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008537276049369115,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0025824899559150636,
+    "differential_forward_relative_error": 0.02232683331363885,
+    "adjoint_relative_error": 0.02271118230142701,
+    "jvp_relative_error": 0.019980475051729243,
+    "gradient_relative_error": 0.11253047674169205,
+    "gradient_cosine": 0.9985089265539462,
+    "reduced_adjoint_dot_defect": 1.5639208828070056e-15,
+    "boxed_update_relative_error": 0.11253047674169249,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6600516061620246
+        ],
+        "condition": [
+          1.5150330529678726
+        ]
+      }
+    },
+    "full_backward_residual": 8.932138118578371e-16,
+    "L_forward_relative_error": 0.03264262997395685,
+    "L_gradient_cosine": 0.7340854218247954,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a0_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00033897442329325426,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0007301026217384462,
+    "differential_forward_relative_error": 0.0033438382581164466,
+    "adjoint_relative_error": 0.00402031589125497,
+    "jvp_relative_error": 0.004407652498479468,
+    "gradient_relative_error": 0.043532932970676244,
+    "gradient_cosine": 0.9990521744551536,
+    "reduced_adjoint_dot_defect": 1.3865608847355379e-16,
+    "boxed_update_relative_error": 0.04353293297067686,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8640316245598707
+        ],
+        "condition": [
+          1.1573650449535227
+        ]
+      }
+    },
+    "full_backward_residual": 6.811108400400493e-16,
+    "L_forward_relative_error": 0.02359424051159128,
+    "L_gradient_cosine": 0.4159317697542237,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250069_weak_a1_snr20",
+    "parent_id": 250069,
+    "family": "asymmetric_piecewise",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.001270913712869431,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.008296148435807145,
+    "differential_forward_relative_error": 0.015266216167052758,
+    "adjoint_relative_error": 0.015908813574960254,
+    "jvp_relative_error": 0.01867186580463196,
+    "gradient_relative_error": 0.11702710586665599,
+    "gradient_cosine": 0.998058564813393,
+    "reduced_adjoint_dot_defect": 3.6771715771800744e-16,
+    "boxed_update_relative_error": 0.11702710586665607,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.5680092534850693
+        ],
+        "condition": [
+          1.7605346988000894
+        ]
+      }
+    },
+    "full_backward_residual": 6.77918669306086e-16,
+    "L_forward_relative_error": 0.22188686838713226,
+    "L_gradient_cosine": 0.16424844894866483,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.00017053033974086718,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.00010736135632768871,
+    "differential_forward_relative_error": 0.003845451888478656,
+    "adjoint_relative_error": 0.004703277784405828,
+    "jvp_relative_error": 0.0034578375842964585,
+    "gradient_relative_error": 0.05289720986253601,
+    "gradient_cosine": 0.9990162406335229,
+    "reduced_adjoint_dot_defect": 3.4138900360079835e-15,
+    "boxed_update_relative_error": 0.052897209862548034,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.9069251566844381
+        ],
+        "condition": [
+          1.1026268183538181
+        ]
+      }
+    },
+    "full_backward_residual": 8.732387727656604e-16,
+    "L_forward_relative_error": 0.0019199086503062098,
+    "L_gradient_cosine": 0.8018528060188428,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_ring_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0007590054418520374,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0021242351078102615,
+    "differential_forward_relative_error": 0.020393841211835094,
+    "adjoint_relative_error": 0.01656717173964656,
+    "jvp_relative_error": 0.01681250482494933,
+    "gradient_relative_error": 0.09494062054596246,
+    "gradient_cosine": 0.999391234542028,
+    "reduced_adjoint_dot_defect": 6.686834143667268e-16,
+    "boxed_update_relative_error": 0.09494062054596358,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6924454414637146
+        ],
+        "condition": [
+          1.4441570990577484
+        ]
+      }
+    },
+    "full_backward_residual": 9.041102334640823e-16,
+    "L_forward_relative_error": 0.027819507959935597,
+    "L_gradient_cosine": 0.8301720989655147,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a0_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003244671188740014,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0005410163270658142,
+    "differential_forward_relative_error": 0.0025207581020344704,
+    "adjoint_relative_error": 0.002824573045407365,
+    "jvp_relative_error": 0.0028151091066804974,
+    "gradient_relative_error": 0.030625774701341594,
+    "gradient_cosine": 0.9995474884817064,
+    "reduced_adjoint_dot_defect": 1.2536791739596826e-16,
+    "boxed_update_relative_error": 0.030625774701341146,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8673473046373823
+        ],
+        "condition": [
+          1.1529406901403547
+        ]
+      }
+    },
+    "full_backward_residual": 6.900525024337362e-16,
+    "L_forward_relative_error": 0.02356507685238256,
+    "L_gradient_cosine": 0.4492233569540875,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250073_weak_a1_snr20",
+    "parent_id": 250073,
+    "family": "smooth",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.00119211798514519,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.005906401355788127,
+    "differential_forward_relative_error": 0.01141958956833538,
+    "adjoint_relative_error": 0.015537293813345536,
+    "jvp_relative_error": 0.013782522931940126,
+    "gradient_relative_error": 0.1118023105752803,
+    "gradient_cosine": 0.9982083652820725,
+    "reduced_adjoint_dot_defect": 6.194677970742985e-16,
+    "boxed_update_relative_error": 0.11180231057528084,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6079244775696201
+        ],
+        "condition": [
+          1.644941167688842
+        ]
+      }
+    },
+    "full_backward_residual": 6.400307761787417e-16,
+    "L_forward_relative_error": 0.20101536704724923,
+    "L_gradient_cosine": -0.08373473286727223,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0001957669370118441,
+    "variant_id": "ring:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.00019934520243751605,
+    "differential_forward_relative_error": 0.005830150517368281,
+    "adjoint_relative_error": 0.006311226248779767,
+    "jvp_relative_error": 0.006673012750145324,
+    "gradient_relative_error": 0.04695466134254754,
+    "gradient_cosine": 0.9995045161035545,
+    "reduced_adjoint_dot_defect": 2.0719198494306242e-15,
+    "boxed_update_relative_error": 0.04695466134254609,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8927750397777668
+        ],
+        "condition": [
+          1.1201029995741414
+        ]
+      }
+    },
+    "full_backward_residual": 8.951420025559965e-16,
+    "L_forward_relative_error": 0.0022488862551256887,
+    "L_gradient_cosine": 0.9482951562389292,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_ring_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "ring",
+    "noise_db": 20.0,
+    "sigma": 0.0008011841639367669,
+    "variant_id": "ring:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0027149574109871853,
+    "differential_forward_relative_error": 0.02538976242511029,
+    "adjoint_relative_error": 0.013001255018443665,
+    "jvp_relative_error": 0.01766907778810122,
+    "gradient_relative_error": 0.10694756061456175,
+    "gradient_cosine": 0.9993039319575359,
+    "reduced_adjoint_dot_defect": 4.780232300316575e-16,
+    "boxed_update_relative_error": 0.10694756061456295,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6950640097969091
+        ],
+        "condition": [
+          1.4387164144669067
+        ]
+      }
+    },
+    "full_backward_residual": 9.161505234954052e-16,
+    "L_forward_relative_error": 0.0237450602756107,
+    "L_gradient_cosine": 0.8064481266339859,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a0_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0003253418994063265,
+    "variant_id": "weak:a0:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0005030147412644745,
+    "differential_forward_relative_error": 0.0024356291371214417,
+    "adjoint_relative_error": 0.00446207324485915,
+    "jvp_relative_error": 0.004429069784110878,
+    "gradient_relative_error": 0.027574836640734162,
+    "gradient_cosine": 0.9996643677805982,
+    "reduced_adjoint_dot_defect": 1.2384750423506346e-15,
+    "boxed_update_relative_error": 0.027574836640735085,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.8744983860532225
+        ],
+        "condition": [
+          1.1435126879000774
+        ]
+      }
+    },
+    "full_backward_residual": 6.622154587448466e-16,
+    "L_forward_relative_error": 0.021368869699153265,
+    "L_gradient_cosine": 0.4539739644865226,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  },
+  {
+    "case_id": "p250077_weak_a1_snr20",
+    "parent_id": 250077,
+    "family": "mixed_scale",
+    "background_id": "weak",
+    "noise_db": 20.0,
+    "sigma": 0.0011846108030513216,
+    "variant_id": "weak:a1:n1",
+    "phase": "FINAL",
+    "method": "N3",
+    "forward_relative_error": 0.0064156548959529896,
+    "differential_forward_relative_error": 0.012681217624003073,
+    "adjoint_relative_error": 0.013667114259498672,
+    "jvp_relative_error": 0.014683729938142476,
+    "gradient_relative_error": 0.10129757610919374,
+    "gradient_cosine": 0.9984944696623564,
+    "reduced_adjoint_dot_defect": 3.788615074295493e-15,
+    "boxed_update_relative_error": 0.10129757610919408,
+    "core_margins": {
+      "K": {
+        "relative_sigma_min": [
+          0.6249973896957083
+        ],
+        "condition": [
+          1.6000066824068957
+        ]
+      }
+    },
+    "full_backward_residual": 6.514268362054087e-16,
+    "L_forward_relative_error": 0.18873233962452793,
+    "L_gradient_cosine": -0.03834011926865525,
+    "strict_A25_task_gate_pass": true,
+    "scope": "OFFLINE_AUDIT_AT_PREDICTED_MATERIAL_NO_TRUTH_STATE_J"
+  }
+]

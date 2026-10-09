@@ -1,0 +1,7 @@
+method,timing_scope,median_full_inference_seconds,equal_parent_delta_nrmse,quality_parents,timing_records,decoder_only_timing_used
+N1,Resident warm,0.040827350021572784,0.6008366742857763,16,48,False
+N2,Resident warm,0.1260842999909073,0.5977607657559747,16,48,False
+N3,Resident warm,0.038507699995534495,0.6035915899058156,16,48,False
+N1,Fresh encoder + checkpoint; Same process; OS cache uncontrolled,1.141185749991564,0.6008366742857763,16,2,False
+N2,Fresh encoder + checkpoint; Same process; OS cache uncontrolled,1.0532414499903098,0.5977607657559747,16,2,False
+N3,Fresh encoder + checkpoint; Same process; OS cache uncontrolled,0.9976108999981079,0.6035915899058156,16,2,False

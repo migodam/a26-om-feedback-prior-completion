@@ -1,0 +1,13 @@
+{
+  "scientific_updates": 6000,
+  "actual_backward_spans": 6000,
+  "manifest_physical_backward_calls": {
+    "N1": 0,
+    "N2": 0,
+    "N3": 0
+  },
+  "receipt_has_explicit_physical_zero": false,
+  "evidence": "Actual cache-only update code and unit test replace all Maxwell/encoder entries with failures; features and base have no autograd graph. Native training receipt records 6000 backward calls and no physical operations. Its absent physical keys are not edited into explicit zeros.",
+  "training_loss_physics_calls": 0,
+  "full_physics_evaluation_outside_training": true
+}

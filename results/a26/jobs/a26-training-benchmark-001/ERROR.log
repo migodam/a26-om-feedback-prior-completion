@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tools\a26_driver.py", line 110, in main
+    result=(benchmark_stage if args.stage=='benchmark' else train_stage)(root,data_root,config,book,args.device,seed=args.seed)
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a26\campaign_training.py", line 38, in benchmark_stage
+    benchmark=benchmark_training(sets['train'],sets['validation'],normalizer=normalizer,
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a26\training.py", line 622, in benchmark_training
+    one_update(model, optimizer, batch, normalizer=normalizer, config=config, book=book, phase="benchmark_warmup")
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a26\training.py", line 516, in one_update
+    mass = model(normalizer(batch["features"]), batch["base_mass"], normalizer.material_scale)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\src\a26\decoder.py", line 89, in forward
+    residual = self.body(normalized_features).flatten(1).to(torch.float64)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "D:\dev_tools\pip\userbase\Python310\site-packages\torch\nn\modules\conv.py", line 549, in _conv_forward
+    return F.conv2d(
+RuntimeError: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility

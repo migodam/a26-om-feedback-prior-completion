@@ -1,0 +1,12 @@
+{
+  "job": "a26-data-audit-001--controller",
+  "status": "COMPLETE",
+  "device": "cpu",
+  "wall_seconds": 0.11067139997612685,
+  "process_cpu_seconds": 0.03125,
+  "gpu_occupation_seconds": 0.0,
+  "charged_cpu_seconds": 0.11067139997612685,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

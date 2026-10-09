@@ -1,0 +1,12 @@
+{
+  "job": "a26-tests-002--controller",
+  "status": "COMPLETE",
+  "device": "cpu",
+  "wall_seconds": 1.8506722000311129,
+  "process_cpu_seconds": 1.25,
+  "gpu_occupation_seconds": 0.0,
+  "charged_cpu_seconds": 1.8506722000311129,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

@@ -1,0 +1,15 @@
+{
+  "status": "STATIC_PARSE_PASS",
+  "command": "python3 AST parse of encoder.py, decoder.py, test_a26_encoder_decoder.py (no imports or numerical execution)",
+  "files": [
+    "src/a26/encoder.py",
+    "src/a26/decoder.py",
+    "tests/test_a26_encoder_decoder.py"
+  ],
+  "wall_seconds": 0.007950083,
+  "process_cpu_seconds": 0.007405000000000002,
+  "gpu_seconds": 0.0,
+  "tests_status": "NOT_RUN_PARENT_METERED_CPU_REQUIRED",
+  "new_full_forward_labels": 0,
+  "locked_files_opened": 0
+}

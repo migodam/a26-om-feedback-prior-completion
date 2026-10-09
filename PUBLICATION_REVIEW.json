@@ -1,0 +1,7 @@
+{
+  "checked_text_files": 688,
+  "rejections": [],
+  "hash_checks": false,
+  "third_party": "Existing user-owned A2/A17 and previously public A24/A25 source; dependencies/paper full texts not bundled.",
+  "locked": "No unopened payloads published; public reproduction manifest also filters unopened parent metadata."
+}

@@ -1,0 +1,6 @@
+{
+  "status": "TRAINING",
+  "step": 2000,
+  "best_step": 1100,
+  "best_validation_delta_nrmse": 0.5977607657559748
+}

@@ -1,0 +1,66 @@
+{
+  "protocol_id": "A26-FROZEN-ENCODER-20261009-v1",
+  "seed": 261009,
+  "primary_gate": "NO_GO",
+  "evidence_scope": "EXPOSED_DEVELOPMENT_SINGLE_TRAINING_SEED",
+  "formal_independent_validation": "NOT_RUN",
+  "checks": {
+    "N2_vs_N1": {
+      "complex_gain_at_least_10pct": false,
+      "positive_bootstrap_lower": false,
+      "two_complex_families_improve": false,
+      "no_family_over_5pct_worse": true,
+      "data_residual_noninferior_5pct": false,
+      "complete_parent_pairing": true
+    },
+    "N2_vs_N3": {
+      "complex_gain_at_least_10pct": false,
+      "positive_bootstrap_lower": false,
+      "two_complex_families_improve": false,
+      "no_family_over_5pct_worse": true,
+      "data_residual_noninferior_5pct": false,
+      "complete_parent_pairing": true
+    },
+    "numerical_valid_and_complete": true,
+    "native_full_warm_latency_within_1_25": false
+  },
+  "paired_evidence": {
+    "N2_vs_N1": {
+      "complex_relative_gain": -0.002249698509621775,
+      "bootstrap95": [
+        -0.024549209811595318,
+        0.020131596771359957
+      ],
+      "family_gains": {
+        "shell": -0.02127922770657679,
+        "asymmetric_piecewise": 0.014764379213430538,
+        "smooth": 0.03348201756098931,
+        "mixed_scale": -0.00023424703571907346
+      },
+      "full_data_residual_parent_relative_gain": -0.078504105886595
+    },
+    "N2_vs_N3": {
+      "complex_relative_gain": -0.0027344178098315463,
+      "bootstrap95": [
+        -0.01612107719360397,
+        0.012464777609012476
+      ],
+      "family_gains": {
+        "shell": -0.004301686606023111,
+        "asymmetric_piecewise": 0.012283297302733875,
+        "smooth": 0.06940358337043992,
+        "mixed_scale": -0.016184864126205404
+      },
+      "full_data_residual_parent_relative_gain": -0.08987589197002628
+    }
+  },
+  "warm_latency_ratio": 3.274262030854311,
+  "repeat_authorized": false,
+  "repeat_seed_status": "NOT_RUN_GATE_FAILED",
+  "locked_ID_OOD": "CLOSED_NOT_OPENED",
+  "new_labels": 0,
+  "NN_training": "THREE_MODELS_ACTUALLY_TRAINED",
+  "quality_time_claim": "NO_ACCELERATION",
+  "TASK_R32": "EXPLORATORY_NOT_UNIFORMLY_GRADIENT_CERTIFIED",
+  "decision": "Proceed only to identical repeat if all preregistered checks pass; otherwise stop N2 expansion and preserve simpler comparators."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "THREE_MODELS_TRAINED",
+  "seed": 261009,
+  "updates": 2000,
+  "width": 32,
+  "methods": {
+    "N1": {
+      "completed_updates": 2000,
+      "best_step": 1300,
+      "best_validation_delta_nrmse": 0.6008366742857764,
+      "parameter_count": 31810,
+      "physical_backward_calls": 0
+    },
+    "N2": {
+      "completed_updates": 2000,
+      "best_step": 1100,
+      "best_validation_delta_nrmse": 0.5977607657559748,
+      "parameter_count": 31810,
+      "physical_backward_calls": 0
+    },
+    "N3": {
+      "completed_updates": 2000,
+      "best_step": 1400,
+      "best_validation_delta_nrmse": 0.6035915899058157,
+      "parameter_count": 31810,
+      "physical_backward_calls": 0
+    }
+  }
+}

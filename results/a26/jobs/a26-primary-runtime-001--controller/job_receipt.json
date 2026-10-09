@@ -1,0 +1,12 @@
+{
+  "job": "a26-primary-runtime-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.6401026999228634,
+  "process_cpu_seconds": 1.6875,
+  "gpu_occupation_seconds": 1.6401026999228634,
+  "charged_cpu_seconds": 1.6875,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

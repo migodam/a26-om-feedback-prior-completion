@@ -27,3 +27,11 @@ private/
 results/jobs/*/COST_LEDGER.jsonl
 results/jobs/a24-delivery-*/
 publication/A24_COMPLETE_COST_LEDGERS.zip
+results/a26/**/*.npz
+results/a26/jobs/*/COST_LEDGER.jsonl
+results/a26/transport_variants/
+results/a26/repro_inputs/
+results/a26/jobs/*/job_checkpoint.json
+results/a26/jobs/*/job_manifest.json
+results/a26/jobs/*/environment.json
+results/a26/jobs/*/config.json

@@ -1,0 +1,12 @@
+{
+  "job": "a26-worktree-setup-001",
+  "status": "COMPLETE",
+  "device": "cpu",
+  "wall_seconds": 2.0,
+  "process_cpu_seconds": 2.0,
+  "charged_cpu_seconds": 2.0,
+  "gpu_occupation_seconds": 0.0,
+  "durable_reservations": {},
+  "measurement_role": "conservative startup accounting envelope; not native scientific timing",
+  "reason": "Conservative envelope for initial git/worktree/source setup commands before the native ledger existed"
+}

@@ -1,0 +1,35 @@
+{
+  "primary_warm_summary_unchanged": true,
+  "fresh_interpreter_methods": [
+    "N1",
+    "N2",
+    "N3"
+  ],
+  "disk_cache": "UNCONTROLLED",
+  "measured_rows": [
+    {
+      "method": "N1",
+      "warm_ms": 40.827350021572784,
+      "encoder_ms": 25.48939999542199,
+      "cnn_ms": 13.683699973626062,
+      "audited_ms": 195.07079999311827,
+      "process_cold": 4.193195900006685
+    },
+    {
+      "method": "N2",
+      "warm_ms": 126.08429999090731,
+      "encoder_ms": 114.6712000190746,
+      "cnn_ms": 13.392149994615465,
+      "audited_ms": 281.07500000623986,
+      "process_cold": 3.832269200007431
+    },
+    {
+      "method": "N3",
+      "warm_ms": 38.507699995534495,
+      "encoder_ms": 23.51620001718402,
+      "cnn_ms": 13.902149978093803,
+      "audited_ms": 194.7531000187155,
+      "process_cold": 3.1338464999571443
+    }
+  ]
+}

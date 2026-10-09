@@ -1,0 +1,12 @@
+{
+  "job": "a26-feature-cache-001--controller",
+  "status": "COMPLETE",
+  "device": "cuda",
+  "wall_seconds": 1.3996259999694303,
+  "process_cpu_seconds": 1.1875,
+  "gpu_occupation_seconds": 1.3996259999694303,
+  "charged_cpu_seconds": 1.1875,
+  "durable_reservations": {},
+  "measurement_role": "exclusive controller/import/stop tail",
+  "counts": {}
+}

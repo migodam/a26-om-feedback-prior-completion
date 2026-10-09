@@ -1,0 +1,16 @@
+{
+  "status": "MEASURED_RAW_MEASUREMENT_TO_IMAGE",
+  "seed": 261009,
+  "warm_median_seconds": {
+    "N1": 0.040827350021572784,
+    "N2": 0.1260842999909073,
+    "N3": 0.038507699995534495
+  },
+  "warm_cases_per_method": 48,
+  "fresh_encoder_cases_per_method": 2,
+  "fresh_process_per_method": "NOT_RUN_YET",
+  "N2_over_faster_control": 3.274262030854311,
+  "cache_only_decoder_is_not_total_inference": true,
+  "offline_full_audit_separate": true,
+  "timing_instrumentation": "in-memory action counting; outer paid budget, lock and synchronization; full traced comparator also saved"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "FAILED",
+  "job": "a26-process-cold-N3-001",
+  "returncode": 1,
+  "queue_clear": true,
+  "lock_exists": false
+}

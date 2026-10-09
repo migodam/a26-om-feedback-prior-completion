@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "caches": {
+    "train_N1": {
+      "rows": 512,
+      "path": "results/a26/cache/train_N1.npz"
+    },
+    "train_N2": {
+      "rows": 512,
+      "path": "results/a26/cache/train_N2.npz"
+    },
+    "train_N3": {
+      "rows": 512,
+      "path": "results/a26/cache/train_N3.npz"
+    },
+    "validation_N1": {
+      "rows": 128,
+      "path": "results/a26/cache/validation_N1.npz"
+    },
+    "validation_N2": {
+      "rows": 128,
+      "path": "results/a26/cache/validation_N2.npz"
+    },
+    "validation_N3": {
+      "rows": 128,
+      "path": "results/a26/cache/validation_N3.npz"
+    }
+  },
+  "encoder_target_access": false,
+  "new_labels": 0
+}

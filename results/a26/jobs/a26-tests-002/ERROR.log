@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tools\a26_driver.py", line 96, in main
+    if args.stage=='tests':result=tests_stage(root,book)
+  File "D:\AI\A26_OM_FEEDBACK_PRIOR_COMPLETION\tools\a26_driver.py", line 76, in tests_stage
+    if not result.wasSuccessful():raise RuntimeError('UNIT_TESTS_FAILED:'+json.dumps(output))
+RuntimeError: UNIT_TESTS_FAILED:{"tests": 108, "errors": 4, "failures": 0, "passed": false}

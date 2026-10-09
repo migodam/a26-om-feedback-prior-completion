@@ -1,0 +1,2754 @@
+[
+  {
+    "first_row": 0,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          9.183943130176489e-17,
+          8.533063500747015e-17,
+          1.507973729392174e-16,
+          1.5535137242347485e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9588766086312431,
+            0.9589855706075793,
+            0.8529541738940762,
+            0.8524297254482855
+          ],
+          "condition": [
+            1.0428870524096514,
+            1.0427685573688408,
+            1.1723959277139133,
+            1.1731172320089007
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 0,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.31273819617645e-17,
+          8.310892887274512e-17,
+          9.422435371848815e-17,
+          1.0676676082133524e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9846355160382857,
+            0.9844790906536343,
+            0.9388896694063804,
+            0.9395764979335149
+          ],
+          "condition": [
+            1.0156042349797962,
+            1.0157656058861146,
+            1.0650878719671684,
+            1.0643092948784685
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 8,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.154028273451797e-16,
+          1.2278540153708091e-16,
+          2.8180678417852953e-16,
+          3.527380089527329e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9361694370314247,
+            0.936231905317733,
+            0.797764631540242,
+            0.798548778523973
+          ],
+          "condition": [
+            1.06818270330527,
+            1.0681114308539033,
+            1.253502550080846,
+            1.2522716543983534
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 8,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.027486931853882e-16,
+          9.954393134241299e-17,
+          2.874973998573629e-16,
+          2.3102165861227495e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.951829971731832,
+            0.951512109063238,
+            0.8286122751023862,
+            0.8272770548985512
+          ],
+          "condition": [
+            1.0506078078005086,
+            1.050958774433778,
+            1.2068370576291987,
+            1.20878488540049
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 16,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.877922060238497e-17,
+          9.416676811783454e-17,
+          2.0071540787780674e-16,
+          1.6159104074620055e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9514880636795681,
+            0.9513324700223429,
+            0.8320987546902924,
+            0.8320320864214394
+          ],
+          "condition": [
+            1.0509853335761543,
+            1.0511572257977426,
+            1.2017804309444022,
+            1.2018767260539058
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 16,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.380730522179074e-17,
+          8.220650019790259e-17,
+          1.0142866842653267e-16,
+          1.103407980072651e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.976814793158341,
+            0.9769135022415202,
+            0.9122651906916455,
+            0.9119428350391021
+          ],
+          "condition": [
+            1.0237355197771874,
+            1.0236320797138212,
+            1.0961724838386493,
+            1.096559961411531
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 24,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          9.829918402581499e-17,
+          9.795722278414452e-17,
+          2.12610382411468e-16,
+          2.241975788421099e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9592004187846861,
+            0.9591422312979355,
+            0.8535670073412422,
+            0.8532327648563794
+          ],
+          "condition": [
+            1.0425349910366044,
+            1.0425982376427891,
+            1.1715541854351643,
+            1.1720131260645215
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 24,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.105598732104603e-17,
+          8.38763106135367e-17,
+          1.094838179663406e-16,
+          1.0681376566796007e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.983517311130455,
+            0.9834409074370061,
+            0.9349285384122713,
+            0.9352028853641691
+          ],
+          "condition": [
+            1.0167589209493422,
+            1.0168379131249985,
+            1.069600465612308,
+            1.0692866923850421
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 32,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.0886762669057853e-16,
+          9.364932305073123e-17,
+          2.3762445746493424e-16,
+          1.851558504846493e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9497054116512402,
+            0.9502998499691996,
+            0.8244805838476167,
+            0.8261248058466563
+          ],
+          "condition": [
+            1.0529580938801995,
+            1.052299440047698,
+            1.2128848387590694,
+            1.2104708549153749
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 32,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.316837516901885e-17,
+          7.931778117555364e-17,
+          1.0839520111283553e-16,
+          1.0960752717061901e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9806670975327642,
+            0.980700926260808,
+            0.9224803965257281,
+            0.9226946854770955
+          ],
+          "condition": [
+            1.0197140319236517,
+            1.0196788574604239,
+            1.084033876238702,
+            1.0837821174649254
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 40,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.479094191394289e-17,
+          8.068707239877796e-17,
+          1.633274496415131e-16,
+          1.7303619649069297e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9716122853570981,
+            0.9715025922363758,
+            0.8925971009747958,
+            0.8931239527964001
+          ],
+          "condition": [
+            1.0292171219639,
+            1.0293333316775037,
+            1.1203262915686267,
+            1.1196654135956914
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 40,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.078785417920696e-17,
+          8.159556704074631e-17,
+          8.882697550814013e-17,
+          9.596328518605442e-17
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9863931427186441,
+            0.9863438348136516,
+            0.9459233030047637,
+            0.9457470193030704
+          ],
+          "condition": [
+            1.0137945578614358,
+            1.0138452380441232,
+            1.0571681623906077,
+            1.0573652145759964
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 48,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.27429024083773e-17,
+          9.167164839743634e-17,
+          1.813299386938796e-16,
+          2.0407364423769799e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9651236382145671,
+            0.9652950504090858,
+            0.8726507168875215,
+            0.8721758876119566
+          ],
+          "condition": [
+            1.0361366776281145,
+            1.0359526857370775,
+            1.1459338549181446,
+            1.1465577232799105
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 48,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.0964336393685e-17,
+          8.531510301213096e-17,
+          1.3046300710282737e-16,
+          1.3482894603857752e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9750322083092514,
+            0.9751385408075414,
+            0.9022753468610217,
+            0.9017272697733651
+          ],
+          "condition": [
+            1.0256071455670617,
+            1.0254953097965651,
+            1.1083091247909613,
+            1.108982763991749
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 56,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.768764798133465e-17,
+          8.628985422669933e-17,
+          1.699325290512507e-16,
+          1.4146042358665978e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9699557812986755,
+            0.9700109858065948,
+            0.8880240371599334,
+            0.8891926794371522
+          ],
+          "condition": [
+            1.030974833369309,
+            1.0309161593344929,
+            1.1260956439852536,
+            1.1246156464457033
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 56,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.366360700769136e-17,
+          8.40383565061283e-17,
+          1.001986171236685e-16,
+          1.0692701823156738e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9811770585991818,
+            0.9812931973504199,
+            0.9271503972715065,
+            0.9273794568627068
+          ],
+          "condition": [
+            1.0191840414896078,
+            1.019063418252659,
+            1.0785736628521987,
+            1.0783072588031721
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 64,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.0807390884606298e-16,
+          9.304109392732853e-17,
+          2.396226348867602e-16,
+          1.847700725522783e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9514595505521758,
+            0.9514476664244148,
+            0.8319620164468986,
+            0.8336204710900591
+          ],
+          "condition": [
+            1.0510168292699926,
+            1.051029957073779,
+            1.2019779511939133,
+            1.1995866640515433
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 64,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.311301882196494e-17,
+          8.367738967704348e-17,
+          1.0948607818785923e-16,
+          1.0832629230984731e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9839621702234149,
+            0.9841161328234002,
+            0.935795081674883,
+            0.9365982694431333
+          ],
+          "condition": [
+            1.0162992341188724,
+            1.0161402365501615,
+            1.0686100189906995,
+            1.0676936234299932
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 72,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.360428697473613e-17,
+          8.52778356998553e-17,
+          1.4449210198406054e-16,
+          1.6237139627533472e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9631530518154799,
+            0.9631154490395339,
+            0.8633799675280461,
+            0.8621309832543845
+          ],
+          "condition": [
+            1.0382565866505495,
+            1.0382971231509672,
+            1.15823859437359,
+            1.159916554935986
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 72,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.51239634296991e-17,
+          8.269863242801878e-17,
+          1.240900350994663e-16,
+          1.155230288616917e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9687777144958873,
+            0.9687710444080465,
+            0.8882996885566673,
+            0.8880876142161745
+          ],
+          "condition": [
+            1.0322285339938475,
+            1.032235640993002,
+            1.1257462012902721,
+            1.1260150282386263
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 80,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.186513441554343e-17,
+          8.300309021673687e-17,
+          1.5204865368943098e-16,
+          1.664766919090367e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9713697374584518,
+            0.9713260428576777,
+            0.8893375828064212,
+            0.8892347712454884
+          ],
+          "condition": [
+            1.029474114168368,
+            1.0295204245301222,
+            1.1244324082699497,
+            1.1245624129152874
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 80,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.668940431900438e-17,
+          8.39228397647703e-17,
+          1.266630649774474e-16,
+          1.1952567438707167e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.975305719711983,
+            0.9750714240385233,
+            0.9086309675307237,
+            0.9083436507675188
+          ],
+          "condition": [
+            1.0253195278043785,
+            1.0255658973762436,
+            1.1005568109983956,
+            1.1009049264064705
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 88,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.691971147459833e-17,
+          8.097595722869667e-17,
+          2.2005735817568348e-16,
+          1.6671706709349725e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9662357554556213,
+            0.9661655639736748,
+            0.8733006542708325,
+            0.8728517296526258
+          ],
+          "condition": [
+            1.0349441058807198,
+            1.035019294091967,
+            1.1450810154664959,
+            1.1456699529002208
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 88,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          7.875778906555612e-17,
+          7.64213608755385e-17,
+          9.102591917380644e-17,
+          8.718690574573094e-17
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9883734126021896,
+            0.9885272455775468,
+            0.9527501772884593,
+            0.952796230891898
+          ],
+          "condition": [
+            1.0117633550736658,
+            1.0116059061333715,
+            1.0495930872938952,
+            1.0495423549943257
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 96,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          9.529246508869258e-17,
+          9.809811016659735e-17,
+          2.5509506794325527e-16,
+          1.6805937014253662e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9515651265629482,
+            0.951700646337755,
+            0.8331353871389121,
+            0.8331643689008345
+          ],
+          "condition": [
+            1.0509002191074388,
+            1.0507505735633427,
+            1.200285110243752,
+            1.2002433581254395
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 96,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.50965124893462e-17,
+          8.629288039697982e-17,
+          1.5769673445898174e-16,
+          1.3894854422991084e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9784746399049329,
+            0.9783712450245258,
+            0.9170961261975514,
+            0.917583402381794
+          ],
+          "condition": [
+            1.0219988942147324,
+            1.0221068996921838,
+            1.0903982379101123,
+            1.0898191896281855
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 104,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.0279635291308982e-16,
+          8.886352549455646e-17,
+          1.9600740757928706e-16,
+          1.9066008248020596e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9564300947129712,
+            0.9561892242871576,
+            0.8467741424647633,
+            0.846401648171935
+          ],
+          "condition": [
+            1.0455547201284003,
+            1.0458181023170425,
+            1.180952452196086,
+            1.1814721795022587
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 104,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          7.602622745377569e-17,
+          8.325917724012464e-17,
+          1.0948743903365036e-16,
+          1.2008164621091122e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9833849156365544,
+            0.9834258925444145,
+            0.9345042291875685,
+            0.9340466741959418
+          ],
+          "condition": [
+            1.0168958096664422,
+            1.0168534381504877,
+            1.0700861149332321,
+            1.0706103106258935
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 112,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.0229123930734378e-16,
+          8.674484915825164e-17,
+          2.3687094142789013e-16,
+          2.543555194561692e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9488843460293739,
+            0.9489424218531909,
+            0.8275746515438472,
+            0.827181655906928
+          ],
+          "condition": [
+            1.0538692140770587,
+            1.0538047166730082,
+            1.2083502051863138,
+            1.208924294753119
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 112,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.295255398889078e-17,
+          8.680775495351168e-17,
+          1.2379107778860872e-16,
+          1.2430087499972105e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9722079641742546,
+            0.9725383296417645,
+            0.895957794607328,
+            0.8967741633142051
+          ],
+          "condition": [
+            1.02858651322544,
+            1.0282371085244024,
+            1.1161240027363908,
+            1.115107951264233
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 120,
+    "background": "weak",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          1.1788465744209404e-16,
+          1.0563663110392139e-16,
+          2.8142632741010456e-16,
+          3.1679206960092315e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9345306893608982,
+            0.9345814635417249,
+            0.792623943552306,
+            0.7933457777654915
+          ],
+          "condition": [
+            1.0700558166622378,
+            1.069997682396099,
+            1.261632339187605,
+            1.2604844293954185
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "weak",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  },
+  {
+    "first_row": 120,
+    "background": "ring",
+    "result": {
+      "method": "N2",
+      "physical_model": "R",
+      "feature_names": [
+        "base_delta_real",
+        "base_delta_imag",
+        "O_or_BP_real",
+        "O_or_BP_imag",
+        "gradient_mass_real",
+        "gradient_mass_imag",
+        "source_mean_field_power",
+        "source_mean_w_power",
+        "background_real",
+        "background_imag",
+        "confidence_diag_real",
+        "confidence_diag_imag"
+      ],
+      "beta_group": [
+        "NOISE_FREE",
+        "NOISY",
+        "NOISE_FREE",
+        "NOISY"
+      ],
+      "beta_status": "COMPUTED_FOR_N2",
+      "beta_noise_free": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "relative_forward_residual": {
+        "L": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R": [
+          8.504271962368184e-17,
+          8.988290224889635e-17,
+          1.7825100583936724e-16,
+          1.5664293523412027e-16
+        ]
+      },
+      "core_margins": {
+        "K": {
+          "relative_sigma_min": [
+            0.9633821315957507,
+            0.9629715443316799,
+            0.8656120723127347,
+            0.8658042140537897
+          ],
+          "condition": [
+            1.038009702695643,
+            1.0384522843756703,
+            1.1552519101636474,
+            1.1549955333641666
+          ]
+        }
+      },
+      "canonical_current_recovered": false,
+      "background_id": "ring",
+      "confidence_interpretation": "NUMERICAL_SOFT_OPERATOR_NOT_STATISTICAL_RECOVERABILITY",
+      "physical_counts": {
+        "LU_factorizations": 8,
+        "a26_encoded_images": 4,
+        "a26_common_initial_images": 4,
+        "Db_adjoint_actions": 64,
+        "relative_forward_calls": 8,
+        "relative_forward_source_rhs": 64,
+        "Db_actions": 64,
+        "a26_forward_residual_audits": 8,
+        "data_adjoint_directions": 4,
+        "data_adjoint_source_rhs": 32,
+        "a26_observable_source_rhs": 32,
+        "material_ratio_images": 4,
+        "core_guards": 4,
+        "linear_solve_rhs": 64,
+        "feedback_K_LU_factorizations": 8,
+        "lowrank_feedback_rhs": 32
+      }
+    }
+  }
+]

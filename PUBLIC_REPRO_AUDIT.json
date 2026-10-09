@@ -1,0 +1,24 @@
+{
+  "technical_delivery_audit": "PASSED",
+  "scientific_gate": "NO_GO",
+  "input_splits": {
+    "train": {
+      "observations": 512,
+      "parents": 64,
+      "material_labels": 512
+    },
+    "validation": {
+      "observations": 128,
+      "parents": 16,
+      "material_labels": 128
+    }
+  },
+  "NN_models_actually_trained": 3,
+  "updates_per_model": 2000,
+  "saved_checkpoints": 9,
+  "N1_N3_noNN_material_outputs": "BITWISE_IDENTICAL",
+  "locked_payload_published": false,
+  "locked_parent_metadata_in_public_input_manifest": false,
+  "new_labels": 0,
+  "sha256_checks": false
+}

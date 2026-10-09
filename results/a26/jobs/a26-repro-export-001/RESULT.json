@@ -1,0 +1,11 @@
+{
+  "status": "REPACKAGED_EXISTING_ALLOWED_INPUTS",
+  "new_labels": 0,
+  "copied_label_rows": 640,
+  "independent_parents": 80,
+  "locked_payload_included": false,
+  "current_teacher_arrays_included": false,
+  "background_J": "KNOWN_BACKGROUND_ONLY",
+  "source_commit": "59d8cc57c9da99ccb7978febc308193c43d6f3e5",
+  "hash_checks": false
+}

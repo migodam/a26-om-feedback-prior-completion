@@ -1,0 +1,29 @@
+{
+  "status": "ACTUAL_FRESH_INTERPRETER",
+  "method": "N2",
+  "rows": [
+    {
+      "method": "N2",
+      "background_id": "weak",
+      "case_id": "p250065_weak_a0_snr20",
+      "fresh_process": true,
+      "disk_cold_claim": false,
+      "new_encoder_seconds": 1.9361572000198066,
+      "process_start_to_image_seconds": 3.832269200007431,
+      "finite_image": true
+    },
+    {
+      "method": "N2",
+      "background_id": "ring",
+      "case_id": "p250065_ring_a0_snr20",
+      "fresh_process": false,
+      "disk_cold_claim": false,
+      "new_encoder_seconds": 1.1323902000440285,
+      "process_start_to_image_seconds": null,
+      "finite_image": true
+    }
+  ],
+  "OS_disk_cache": "NOT_CONTROLLED",
+  "data_and_truth_read": false,
+  "online_observation_only": true
+}
