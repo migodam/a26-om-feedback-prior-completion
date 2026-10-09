@@ -147,8 +147,10 @@ def publish(book):
     if 'a26' not in remotes:
         exists=command(['gh','repo','view',REPO,'--json','nameWithOwner'],book,check=False)
         if exists.returncode:
-            command(['gh','repo','create',REPO,'--public','--description','A26 matched neural material imaging pilot: real training, physics/prior evidence and negative feedback quality-time result','--source','.','--remote','a26'],book)
-        else:command(['git','remote','add','a26',URL+'.git'],book)
+            # gh --source can reject an external-volume linked worktree even
+            # when native Git resolves it. Create by API, then attach via Git.
+            command(['gh','repo','create',REPO,'--public','--description','A26 matched neural material imaging pilot: real training, physics/prior evidence and negative feedback quality-time result'],book)
+        command(['git','remote','add','a26',URL+'.git'],book)
     command(['git','push','a26','HEAD:main'],book,timeout=60)
     # This is a new independent repo; no original remote or prior tag is changed.
     command(['gh','repo','edit',REPO,'--default-branch','main'],book)
